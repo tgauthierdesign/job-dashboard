@@ -10,6 +10,8 @@
   --local-bg: rgba(255, 179, 71, 0.12);
   --new: #4ade80;
   --new-bg: rgba(74, 222, 128, 0.14);
+  --expired: #ff6b6b;
+  --expired-bg: rgba(255, 107, 107, 0.12);
   --radius: 14px;
 }
 
@@ -92,6 +94,30 @@ h1 { margin: 0 0 6px; font-size: 1.7rem; font-weight: 700; letter-spacing: -0.02
 .badge.local { background: var(--local-bg); color: var(--local); border: 1px solid var(--local); }
 .badge.new { background: var(--new-bg); color: var(--new); border: 1px solid var(--new); }
 .badge.contract { background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); }
+.badge.expired { background: var(--expired-bg); color: var(--expired); border: 1px solid var(--expired); }
+
+/* Expired cards: dimmed, greyed, no local highlight, moved visually to the back */
+.card.expired {
+  opacity: 0.62;
+  border-color: var(--border);
+  border-style: dashed;
+  background: var(--surface);
+  box-shadow: none;
+}
+.card.expired:hover { transform: none; opacity: 0.8; border-color: var(--expired); }
+.card.expired h2, .card.expired .company { color: var(--muted); text-decoration: line-through; text-decoration-color: rgba(255,107,107,0.5); }
+.expired-msg {
+  margin: 2px 0 0;
+  font-size: 0.8rem;
+  color: var(--expired);
+  background: var(--expired-bg);
+  border: 1px solid var(--expired);
+  border-radius: 8px;
+  padding: 7px 10px;
+  line-height: 1.35;
+}
+.apply.muted { background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); }
+.apply.muted:hover { opacity: 1; border-color: var(--expired); color: var(--text); }
 
 .card h2 { margin: 0; font-size: 1.08rem; font-weight: 650; line-height: 1.3; }
 .company { font-weight: 600; color: var(--text); font-size: 0.95rem; }

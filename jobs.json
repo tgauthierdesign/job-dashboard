@@ -1,5 +1,6 @@
 {
-  "last_updated": "2026-07-07T10:20:00+02:00",
+  "last_updated": "2026-07-07T10:46:52+02:00",
+  "last_checked": "2026-07-07T10:46:52+02:00",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -20,7 +21,9 @@
       "new": true,
       "local": true,
       "url": "https://fr.trabajo.org/offre-2958-18c24c79ccf6b45bd9bc17f58e0c0674",
-      "note": "Poste local prioritaire (Lannion, à ~15 min de Perros-Guirec)."
+      "note": "Poste local prioritaire (Lannion, à ~15 min de Perros-Guirec).",
+      "expired": true,
+      "expired_reason": "Page supprimée (HTTP 410) — l'annonce n'existe plus sur trabajo.org."
     },
     {
       "id": "thales-ui-rennes",
@@ -33,7 +36,9 @@
       "new": false,
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/pages/emploi-ux-designer-rennes-35000",
-      "note": null
+      "note": null,
+      "expired": true,
+      "expired_reason": "Offre spécifique introuvable — le lien renvoie vers une page de recherche générique WTTJ, pas vers une annonce Thales active."
     },
     {
       "id": "ateme-product-rennes",
@@ -59,7 +64,9 @@
       "new": false,
       "local": false,
       "url": "https://www.hellowork.com/fr-fr/emplois/78070603.html",
-      "note": null
+      "note": null,
+      "expired": true,
+      "expired_reason": "Annonce clôturée (HTTP 410) — HelloWork indique que l'offre n'est plus disponible."
     },
     {
       "id": "samsic-uxui-rennes",
@@ -72,7 +79,9 @@
       "new": false,
       "local": false,
       "url": "https://www.e-works.fr/offre-emploi/ux-ui-designer-fh-21629.html",
-      "note": null
+      "note": null,
+      "expired": true,
+      "expired_reason": "Page introuvable (404 « Page non trouvée ») — l'annonce a été retirée d'E-Works."
     },
     {
       "id": "roullier-product-saintmalo",
@@ -85,7 +94,9 @@
       "new": false,
       "local": false,
       "url": "https://fr.engineering.jobs/fr/emploi/digital-product-designer-f-h-7939735",
-      "note": "Télétravail partiel possible."
+      "note": "Télétravail partiel possible.",
+      "expired": true,
+      "expired_reason": "Page supprimée (HTTP 410) — l'annonce n'existe plus sur engineering.jobs."
     },
     {
       "id": "metroscope-product-paris",
@@ -124,7 +135,9 @@
       "new": true,
       "local": false,
       "url": "https://fr.trabajo.org/offre-2958-77b1d6fe2a880e428a5d7124bd3f3ecd",
-      "note": "Full remote."
+      "note": "Full remote.",
+      "expired": true,
+      "expired_reason": "Page supprimée (HTTP 410) — l'annonce n'existe plus sur trabajo.org."
     },
     {
       "id": "ddome-ux-remote",
