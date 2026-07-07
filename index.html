@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offres d'emploi — Thomas · UX/UI/VR Designer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1>Offres d'emploi <span class="accent">UX / UI / VR Designer</span></h1>
+      <p class="subtitle">Veille pour Thomas — Perros-Guirec &amp; Bretagne · dispo septembre 2026 · CDI / CDD / Freelance</p>
+      <div class="meta-row">
+        <span id="updated" class="updated">Chargement…</span>
+        <span id="counts" class="counts"></span>
+      </div>
+      <div class="filters" id="filters">
+        <button class="chip active" data-filter="all">Toutes</button>
+        <button class="chip" data-filter="local">⭐ Local (Lannion/Trégor)</button>
+        <button class="chip" data-filter="new">🆕 Récentes</button>
+        <button class="chip" data-filter="remote">🏠 Remote</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="resources" class="resources"></section>
+    <section id="grid" class="grid" aria-live="polite"></section>
+    <p id="empty" class="empty" hidden>Aucune offre ne correspond à ce filtre.</p>
+  </main>
+
+  <footer class="footer">
+    <p>Dashboard mis à jour automatiquement · données dans <code>jobs.json</code></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

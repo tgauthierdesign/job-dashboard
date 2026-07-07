@@ -1,0 +1,167 @@
+{
+  "last_updated": "2026-07-07T10:20:00+02:00",
+  "candidate": {
+    "name": "Thomas",
+    "role": "UX / UI / VR Designer",
+    "contracts": ["CDI", "CDD", "Freelance"],
+    "target_area": "Perros-Guirec / Lannion / Bretagne",
+    "available_from": "2026-09"
+  },
+  "local_keywords": ["Lannion", "Perros-Guirec", "Trégor", "Trebeurden", "Bretagne", "Anticipa"],
+  "jobs": [
+    {
+      "id": "apitic-uiux-lannion",
+      "title": "Designer UI/UX Web",
+      "company": "APITIC",
+      "location": "Lannion",
+      "contract": "CDI",
+      "salary": null,
+      "posted": "2026-07-06",
+      "new": true,
+      "local": true,
+      "url": "https://fr.trabajo.org/offre-2958-18c24c79ccf6b45bd9bc17f58e0c0674",
+      "note": "Poste local prioritaire (Lannion, à ~15 min de Perros-Guirec)."
+    },
+    {
+      "id": "thales-ui-rennes",
+      "title": "UI Designer Confirmé",
+      "company": "Thales",
+      "location": "Rennes",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": false,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/pages/emploi-ux-designer-rennes-35000",
+      "note": null
+    },
+    {
+      "id": "ateme-product-rennes",
+      "title": "Product Designer Junior (UX/UI)",
+      "company": "ATEME",
+      "location": "Rennes",
+      "contract": "CDI",
+      "salary": null,
+      "posted": "2026-06-19",
+      "new": false,
+      "local": false,
+      "url": "https://www.jobijoba.com/fr/annonce/54/2a448a80fdd30e9c740d7905b9dcb628",
+      "note": null
+    },
+    {
+      "id": "momento-ux-rennes-paris",
+      "title": "Senior / Principal UX Designer — Plateforme & Produit",
+      "company": "Momento",
+      "location": "Rennes / Paris",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": false,
+      "local": false,
+      "url": "https://www.hellowork.com/fr-fr/emplois/78070603.html",
+      "note": null
+    },
+    {
+      "id": "samsic-uxui-rennes",
+      "title": "UX/UI Designer (F/H)",
+      "company": "Groupe Samsic",
+      "location": "Rennes",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": false,
+      "local": false,
+      "url": "https://www.e-works.fr/offre-emploi/ux-ui-designer-fh-21629.html",
+      "note": null
+    },
+    {
+      "id": "roullier-product-saintmalo",
+      "title": "Digital Product Designer F/H",
+      "company": "Groupe Roullier",
+      "location": "Saint-Malo",
+      "contract": "CDI",
+      "salary": null,
+      "posted": "2026-06-19",
+      "new": false,
+      "local": false,
+      "url": "https://fr.engineering.jobs/fr/emploi/digital-product-designer-f-h-7939735",
+      "note": "Télétravail partiel possible."
+    },
+    {
+      "id": "metroscope-product-paris",
+      "title": "Senior Product Designer",
+      "company": "Metroscope",
+      "location": "Paris + télétravail fréquent",
+      "contract": "CDI",
+      "salary": "≥ 58 K€",
+      "posted": null,
+      "new": false,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/metroscope/jobs/senior-product-designer_paris",
+      "note": "Télétravail fréquent."
+    },
+    {
+      "id": "warrenwalter-product-paris",
+      "title": "Product Designer Senior",
+      "company": "Warren Walter",
+      "location": "Paris + télétravail fréquent",
+      "contract": "CDI",
+      "salary": "50–55 K€",
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/warren-walter/jobs/product-designer-senior-h-f_paris_WW_jLj5wZl",
+      "note": "Démarrage annoncé 09/07/2026. Télétravail fréquent."
+    },
+    {
+      "id": "isagri-uxui-remote",
+      "title": "UX/UI Designer Expérimenté (SaaS / IA)",
+      "company": "Groupe Isagri",
+      "location": "Remote",
+      "contract": null,
+      "salary": null,
+      "posted": "2026-07-02",
+      "new": true,
+      "local": false,
+      "url": "https://fr.trabajo.org/offre-2958-77b1d6fe2a880e428a5d7124bd3f3ecd",
+      "note": "Full remote."
+    },
+    {
+      "id": "ddome-ux-remote",
+      "title": "Senior Product UX Designer",
+      "company": "Ddome",
+      "location": "Remote France",
+      "contract": null,
+      "salary": null,
+      "posted": null,
+      "new": false,
+      "local": false,
+      "url": "https://jobera.com/job/ddome-senior-product-ux-designer-e6bc5921/",
+      "note": "⚠️ Source à fiabilité faible — vérifier l'annonce avant de postuler."
+    },
+    {
+      "id": "cintoo-vrxr-biot",
+      "title": "VR/XR Developer",
+      "company": "Cintoo",
+      "location": "Biot (06) — hybride / remote",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": false,
+      "local": false,
+      "url": "https://cintoo.factorial.fr/job_posting/vr-xr-developer-remote-or-hybrid-251363",
+      "note": "Orienté développement plus que design — pertinent pour le volet VR."
+    }
+  ],
+  "resources": [
+    {
+      "id": "anticipa-jobboard",
+      "title": "Job Board Technopole Anticipa",
+      "company": "Technopole Anticipa (Lannion-Trégor)",
+      "location": "Lannion / Trégor",
+      "local": true,
+      "url": "https://jobboard.technopole-anticipa.com",
+      "note": "Ressource locale à surveiller régulièrement — offres tech/design du bassin Lannion-Trégor."
+    }
+  ]
+}
