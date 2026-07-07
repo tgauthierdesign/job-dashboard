@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-07-07T12:03:53+02:00",
+  "restaurant": "Strojna",
+  "last_closed_month": {
+    "label": "Juin 2026",
+    "ca_ttc": 7161.0,
+    "prev_label": "Mai 2026",
+    "prev_ca": 7851.0
+  },
+  "week_forecast": {
+    "label": "07-07 → 07-13",
+    "estimated_ca": 3748.0,
+    "estimated_net": 1859.0,
+    "confidence_pct": 100.0,
+    "best_day": {
+      "date": "2026-07-13",
+      "dow": "Lundi",
+      "ca": 841.0
+    }
+  },
+  "food_cost": {
+    "avg_pct": 20.8,
+    "target_pct": 28,
+    "items_above_35pct": 4
+  },
+  "stock": {
+    "total_value_eur": 3372.02,
+    "item_count": 114,
+    "date": "2026-05-05",
+    "stale": true
+  },
+  "alerts": [
+    {
+      "level": "ok",
+      "text": "Food cost moyen 20.8 % — sous la cible de 28 %."
+    },
+    {
+      "level": "warn",
+      "text": "4 produit(s) avec un food cost > 35 % — à revoir."
+    },
+    {
+      "level": "warn",
+      "text": "Inventaire stock daté du 2026-05-05 (63 j) — potentiellement obsolète."
+    }
+  ]
+}

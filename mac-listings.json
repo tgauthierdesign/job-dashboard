@@ -1,0 +1,25 @@
+{
+  "last_checked": "2026-07-03T09:43:00+02:00",
+  "scraping_status": "failing",
+  "status_note": "Scraping bloqué sur les 3 plateformes (Cloudflare / Datadome / cookie wall) — LeBonCoin, BackMarket et Vinted renvoient des pages anti-bot. La liste ci-dessous peut être obsolète tant que le contournement n'est pas en place.",
+  "target": {
+    "model": "Mac Studio / Mac mini reconditionné ou occasion",
+    "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
+    "platforms": [
+      "LeBonCoin",
+      "BackMarket",
+      "Vinted"
+    ]
+  },
+  "listings": [
+    {
+      "id": "lbc-3226340061",
+      "title": "Mac Studio M2 Ultra — 64 Go RAM, 1 To SSD",
+      "price": "2500 € TTC",
+      "platform": "LeBonCoin",
+      "url": "https://www.leboncoin.fr/ad/ordinateurs/3226340061",
+      "found_at": "2026-07-01",
+      "note": "Correspond aux critères (M2 Ultra 64 Go / 1 To, ≤ 2520 €). À re-vérifier — l'annonce peut avoir expiré."
+    }
+  ]
+}

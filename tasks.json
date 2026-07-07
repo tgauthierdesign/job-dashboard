@@ -1,0 +1,26 @@
+{
+  "last_updated": "2026-07-07",
+  "tasks": [
+    {
+      "id": "seed-portfolio",
+      "titre": "Mettre à jour le portfolio UX/UI/VR avant candidatures de septembre",
+      "statut": "doing",
+      "date_creation": "2026-07-07",
+      "notes": "Prioritaire pour la recherche d'emploi"
+    },
+    {
+      "id": "seed-mac",
+      "titre": "Surveiller les annonces Mac Studio (onglet Recherche Mac)",
+      "statut": "todo",
+      "date_creation": "2026-07-07",
+      "notes": "Budget ≤ 2520 € TTC"
+    },
+    {
+      "id": "seed-demo",
+      "titre": "Tâche d'exemple — coche-la ou supprime-la",
+      "statut": "todo",
+      "date_creation": "2026-07-07",
+      "notes": ""
+    }
+  ]
+}

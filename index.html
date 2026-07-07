@@ -3,37 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Offres d'emploi — Thomas · UX/UI/VR Designer</title>
+  <title>Hub perso — Thomas</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="header">
     <div class="header-inner">
-      <h1>Offres d'emploi <span class="accent">UX / UI / VR Designer</span></h1>
-      <p class="subtitle">Veille pour Thomas — Perros-Guirec &amp; Bretagne · dispo septembre 2026 · CDI / CDD / Freelance</p>
-      <div class="meta-row">
-        <span id="updated" class="updated">Chargement…</span>
-        <span id="counts" class="counts"></span>
-      </div>
-      <div class="filters" id="filters">
-        <button class="chip active" data-filter="valid">✅ Valides</button>
-        <button class="chip" data-filter="all">Toutes</button>
-        <button class="chip" data-filter="local">⭐ Local (Lannion/Trégor)</button>
-        <button class="chip" data-filter="new">🆕 Récentes</button>
-        <button class="chip" data-filter="remote">🏠 Remote</button>
-        <button class="chip" data-filter="expired">⛔ Expirées</button>
+      <h1 id="page-title">Offres d'emploi <span class="accent">UX / UI / VR Designer</span></h1>
+      <p id="page-subtitle" class="subtitle">Veille pour Thomas — Perros-Guirec &amp; Bretagne · dispo septembre 2026 · CDI / CDD / Freelance</p>
+
+      <nav class="tabs" id="tabs" aria-label="Sections">
+        <button class="tab active" data-tab="jobs">💼 Emploi</button>
+        <button class="tab" data-tab="mac">🖥️ Recherche Mac</button>
+        <button class="tab" data-tab="tasks">✅ Tâches</button>
+        <button class="tab" data-tab="kiosque">🥪 Kiosque</button>
+      </nav>
+
+      <!-- Jobs sub-header (filters + meta) -->
+      <div class="tab-head" data-head="jobs">
+        <div class="meta-row">
+          <span id="updated" class="updated">Chargement…</span>
+          <span id="counts" class="counts"></span>
+        </div>
+        <div class="filters" id="filters">
+          <button class="chip active" data-filter="valid">✅ Valides</button>
+          <button class="chip" data-filter="all">Toutes</button>
+          <button class="chip" data-filter="local">⭐ Local (Lannion/Trégor)</button>
+          <button class="chip" data-filter="new">🆕 Récentes</button>
+          <button class="chip" data-filter="remote">🏠 Remote</button>
+          <button class="chip" data-filter="expired">⛔ Expirées</button>
+        </div>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <section id="resources" class="resources"></section>
-    <section id="grid" class="grid" aria-live="polite"></section>
-    <p id="empty" class="empty" hidden>Aucune offre ne correspond à ce filtre.</p>
+    <!-- ONGLET EMPLOI -->
+    <section class="panel active" id="panel-jobs">
+      <div id="resources" class="resources"></div>
+      <div id="grid" class="grid" aria-live="polite"></div>
+      <p id="empty" class="empty" hidden>Aucune offre ne correspond à ce filtre.</p>
+    </section>
+
+    <!-- ONGLET MAC -->
+    <section class="panel" id="panel-mac">
+      <div id="mac-status" class="status-bar"></div>
+      <div id="mac-grid" class="grid" aria-live="polite"></div>
+      <p id="mac-empty" class="empty" hidden>Aucune annonce enregistrée pour l'instant.</p>
+    </section>
+
+    <!-- ONGLET TÂCHES -->
+    <section class="panel" id="panel-tasks">
+      <div class="tasks-toolbar">
+        <form id="task-form" class="task-form">
+          <input id="task-input" class="task-input" type="text" placeholder="Nouvelle tâche…" autocomplete="off">
+          <button type="submit" class="apply add-btn">+ Ajouter</button>
+        </form>
+        <div class="tasks-filters" id="task-filters">
+          <button class="chip active" data-tfilter="active">En cours</button>
+          <button class="chip" data-tfilter="all">Toutes</button>
+          <button class="chip" data-tfilter="done">Faites</button>
+          <button class="chip" data-tfilter="archived">Archivées</button>
+        </div>
+      </div>
+      <div id="tasks-list" class="tasks-list"></div>
+      <p id="tasks-empty" class="empty" hidden>Aucune tâche ici.</p>
+      <div class="tasks-sync" id="tasks-sync"></div>
+    </section>
+
+    <!-- ONGLET KIOSQUE -->
+    <section class="panel" id="panel-kiosque">
+      <div id="kiosque-head" class="kiosque-head"></div>
+      <div id="kiosque-cards" class="grid"></div>
+      <div id="kiosque-alerts" class="alerts"></div>
+    </section>
   </main>
 
   <footer class="footer">
-    <p>Dashboard mis à jour automatiquement · données dans <code>jobs.json</code></p>
+    <p id="footer-note">Hub perso de Thomas · données statiques dans <code>*.json</code> · déployé via GitHub Pages</p>
   </footer>
 
   <script src="app.js"></script>
