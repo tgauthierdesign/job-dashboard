@@ -223,7 +223,8 @@
   var tasksLoaded = false;
   var LS_KEY = "hub_tasks_v1";
   var tasksData = { tasks: [] };
-  var taskFilter = "active";
+  var showArchived = false;
+  var dragId = null;
 
   function loadTasksState(base) {
     var local = null;
@@ -243,51 +244,129 @@
   var STATUS_ORDER = ["todo", "doing", "done"];
   var STATUS_LABEL = { todo: "À faire", doing: "En cours", done: "Fait" };
 
-  function taskMatches(t) {
-    switch (taskFilter) {
-      case "active": return t.statut !== "done" && !t.archived;
-      case "done": return t.statut === "done" && !t.archived;
-      case "archived": return !!t.archived;
-      default: return true; // all
-    }
-  }
-
-  function taskRow(t) {
-    var done = t.statut === "done";
-    var cls = "task-row" + (done ? " done" : "") + (t.archived ? " archived" : "");
-    var nextStatus = STATUS_ORDER[(STATUS_ORDER.indexOf(t.statut) + 1) % STATUS_ORDER.length];
+  function taskCard(t) {
+    var idx = STATUS_ORDER.indexOf(t.statut);
     var meta = "Créée le " + esc(t.date_creation || "?") + (t.notes ? " · " + esc(t.notes) : "");
     return (
-      '<div class="' + cls + '" data-id="' + esc(t.id) + '">' +
-        '<button class="task-check ' + (done ? "checked" : "") + '" data-act="toggle" title="Cocher / décocher">' + (done ? "✓" : "") + "</button>" +
-        '<div class="task-main">' +
-          '<div class="task-title">' + esc(t.titre) + "</div>" +
-          '<div class="task-meta">' + STATUS_LABEL[t.statut] + " · " + meta + "</div>" +
+      '<div class="kanban-card" draggable="true" data-id="' + esc(t.id) + '">' +
+        '<div class="kanban-card-title">' + esc(t.titre) + "</div>" +
+        '<div class="kanban-card-meta">' + meta + "</div>" +
+        '<div class="kanban-card-actions">' +
+          (idx > 0 ? '<button class="task-mini" data-act="left" title="Colonne précédente">◀</button>' : "") +
+          (idx < STATUS_ORDER.length - 1 ? '<button class="task-mini" data-act="right" title="Colonne suivante">▶</button>' : "") +
+          '<span class="task-mini-spacer"></span>' +
+          '<button class="task-mini" data-act="archive" title="Archiver">🗄</button>' +
+          '<button class="task-mini del" data-act="del" title="Supprimer">🗑</button>' +
         "</div>" +
-        '<button class="task-status-btn ' + (t.statut === "doing" ? "doing" : "") + '" data-act="cycle" title="Changer le statut">→ ' + STATUS_LABEL[nextStatus] + "</button>" +
-        (t.archived
-          ? '<button class="task-status-btn" data-act="unarchive">Restaurer</button>'
-          : '<button class="task-status-btn" data-act="archive">Archiver</button>') +
-        '<button class="task-del" data-act="del" title="Supprimer">🗑</button>' +
       "</div>"
     );
   }
 
+  function archivedRow(t) {
+    return (
+      '<div class="archived-row" data-id="' + esc(t.id) + '">' +
+        '<span class="archived-title">' + esc(t.titre) + "</span>" +
+        '<span class="archived-badge">' + STATUS_LABEL[t.statut] + "</span>" +
+        '<button class="task-mini" data-act="unarchive" title="Restaurer">↩ Restaurer</button>' +
+        '<button class="task-mini del" data-act="del" title="Supprimer">🗑</button>' +
+      "</div>"
+    );
+  }
+
+  function byDateDesc(a, b) {
+    return String(b.date_creation || "").localeCompare(String(a.date_creation || ""));
+  }
+
   function renderTasks() {
-    var list = tasksData.tasks.filter(taskMatches);
-    // À faire d'abord, puis en cours, puis fait ; plus récentes en tête.
-    var rank = { doing: 0, todo: 1, done: 2 };
-    list.sort(function (a, b) {
-      if (rank[a.statut] !== rank[b.statut]) return rank[a.statut] - rank[b.statut];
-      return String(b.date_creation || "").localeCompare(String(a.date_creation || ""));
+    var cols = { todo: [], doing: [], done: [] };
+    var archived = [];
+    tasksData.tasks.forEach(function (t) {
+      if (t.archived) { archived.push(t); return; }
+      if (!cols[t.statut]) t.statut = "todo"; // statut inconnu -> À faire
+      cols[t.statut].push(t);
     });
-    document.getElementById("tasks-list").innerHTML = list.map(taskRow).join("");
-    document.getElementById("tasks-empty").hidden = list.length > 0;
+
+    STATUS_ORDER.forEach(function (st) {
+      var col = document.querySelector('.kanban-col[data-status="' + st + '"]');
+      var arr = cols[st].sort(byDateDesc);
+      col.querySelector(".kanban-body").innerHTML =
+        arr.length ? arr.map(taskCard).join("") : '<div class="kanban-empty">Rien ici</div>';
+      col.querySelector(".kanban-count").textContent = arr.length;
+    });
+
+    document.getElementById("arch-count").textContent = "(" + archived.length + ")";
+    var wrap = document.getElementById("archived-wrap");
+    if (showArchived) {
+      wrap.hidden = false;
+      wrap.innerHTML = archived.length
+        ? archived.sort(byDateDesc).map(archivedRow).join("")
+        : '<div class="kanban-empty">Aucune tâche archivée</div>';
+    } else {
+      wrap.hidden = true;
+    }
   }
 
   function findTask(id) {
     for (var i = 0; i < tasksData.tasks.length; i++) if (tasksData.tasks[i].id === id) return tasksData.tasks[i];
     return null;
+  }
+
+  function moveTask(t, delta) {
+    var idx = STATUS_ORDER.indexOf(t.statut);
+    var ni = Math.max(0, Math.min(STATUS_ORDER.length - 1, idx + delta));
+    if (ni !== idx) { t.statut = STATUS_ORDER[ni]; persistTasks(); renderTasks(); }
+  }
+
+  function setupDnd() {
+    var board = document.getElementById("kanban");
+    var zone = document.getElementById("archive-zone");
+
+    board.addEventListener("dragstart", function (e) {
+      var card = e.target.closest(".kanban-card");
+      if (!card) return;
+      dragId = card.dataset.id;
+      card.classList.add("dragging");
+      zone.hidden = false;
+      if (e.dataTransfer) { e.dataTransfer.effectAllowed = "move"; try { e.dataTransfer.setData("text/plain", dragId); } catch (x) {} }
+    });
+
+    board.addEventListener("dragend", function () {
+      var d = board.querySelector(".dragging");
+      if (d) d.classList.remove("dragging");
+      document.querySelectorAll(".kanban-col.drop-over").forEach(function (c) { c.classList.remove("drop-over"); });
+      zone.classList.remove("drop-over");
+      zone.hidden = true;
+      dragId = null;
+    });
+
+    board.addEventListener("dragover", function (e) {
+      var col = e.target.closest(".kanban-col");
+      if (!col || !dragId) return;
+      e.preventDefault();
+      if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
+      document.querySelectorAll(".kanban-col.drop-over").forEach(function (c) { if (c !== col) c.classList.remove("drop-over"); });
+      col.classList.add("drop-over");
+    });
+
+    board.addEventListener("drop", function (e) {
+      var col = e.target.closest(".kanban-col");
+      if (!col || !dragId) return;
+      e.preventDefault();
+      var t = findTask(dragId);
+      if (t && t.statut !== col.dataset.status) { t.statut = col.dataset.status; persistTasks(); }
+      renderTasks();
+    });
+
+    // Zone d'archive (drop)
+    zone.addEventListener("dragover", function (e) { if (dragId) { e.preventDefault(); zone.classList.add("drop-over"); } });
+    zone.addEventListener("dragleave", function () { zone.classList.remove("drop-over"); });
+    zone.addEventListener("drop", function (e) {
+      if (!dragId) return;
+      e.preventDefault();
+      var t = findTask(dragId);
+      if (t) { t.archived = true; persistTasks(); }
+      renderTasks();
+    });
   }
 
   function loadTasks() {
@@ -304,32 +383,33 @@
       persistTasks(); renderTasks();
     });
 
-    document.getElementById("task-filters").addEventListener("click", function (e) {
-      var btn = e.target.closest(".chip");
-      if (!btn) return;
-      taskFilter = btn.dataset.tfilter;
-      document.querySelectorAll("#task-filters .chip").forEach(function (c) {
-        c.classList.toggle("active", c === btn);
-      });
+    document.getElementById("toggle-archived").addEventListener("click", function () {
+      showArchived = !showArchived;
+      this.classList.toggle("active", showArchived);
       renderTasks();
     });
 
-    document.getElementById("tasks-list").addEventListener("click", function (e) {
+    // Clics sur les cartes (colonnes + zone archivées)
+    function onCardClick(e) {
       var btn = e.target.closest("[data-act]");
       if (!btn) return;
-      var row = e.target.closest(".task-row");
-      var t = findTask(row.dataset.id);
+      var host = e.target.closest(".kanban-card, .archived-row");
+      if (!host) return;
+      var t = findTask(host.dataset.id);
       if (!t) return;
       switch (btn.dataset.act) {
-        case "toggle": t.statut = t.statut === "done" ? "todo" : "done"; break;
-        case "cycle": t.statut = STATUS_ORDER[(STATUS_ORDER.indexOf(t.statut) + 1) % STATUS_ORDER.length]; break;
+        case "left": moveTask(t, -1); return;
+        case "right": moveTask(t, +1); return;
         case "archive": t.archived = true; break;
         case "unarchive": t.archived = false; break;
         case "del": tasksData.tasks = tasksData.tasks.filter(function (x) { return x.id !== t.id; }); break;
       }
       persistTasks(); renderTasks();
-    });
+    }
+    document.getElementById("kanban").addEventListener("click", onCardClick);
+    document.getElementById("archived-wrap").addEventListener("click", onCardClick);
 
+    setupDnd();
     renderSyncBox();
 
     getJSON("tasks.json").then(function (base) {

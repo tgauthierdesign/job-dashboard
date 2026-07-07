@@ -52,22 +52,36 @@
       <p id="mac-empty" class="empty" hidden>Aucune annonce enregistrée pour l'instant.</p>
     </section>
 
-    <!-- ONGLET TÂCHES -->
+    <!-- ONGLET TÂCHES (Kanban) -->
     <section class="panel" id="panel-tasks">
       <div class="tasks-toolbar">
         <form id="task-form" class="task-form">
-          <input id="task-input" class="task-input" type="text" placeholder="Nouvelle tâche…" autocomplete="off">
+          <input id="task-input" class="task-input" type="text" placeholder="Nouvelle tâche… (arrive dans « À faire »)" autocomplete="off">
           <button type="submit" class="apply add-btn">+ Ajouter</button>
         </form>
         <div class="tasks-filters" id="task-filters">
-          <button class="chip active" data-tfilter="active">En cours</button>
-          <button class="chip" data-tfilter="all">Toutes</button>
-          <button class="chip" data-tfilter="done">Faites</button>
-          <button class="chip" data-tfilter="archived">Archivées</button>
+          <button class="chip" id="toggle-archived" data-open="0">🗄 Archivées <span id="arch-count">(0)</span></button>
         </div>
       </div>
-      <div id="tasks-list" class="tasks-list"></div>
-      <p id="tasks-empty" class="empty" hidden>Aucune tâche ici.</p>
+
+      <div id="kanban" class="kanban">
+        <div class="kanban-col" data-status="todo">
+          <div class="kanban-head"><span class="kanban-title">📋 À faire</span><span class="kanban-count">0</span></div>
+          <div class="kanban-body"></div>
+        </div>
+        <div class="kanban-col" data-status="doing">
+          <div class="kanban-head"><span class="kanban-title">🔵 En cours</span><span class="kanban-count">0</span></div>
+          <div class="kanban-body"></div>
+        </div>
+        <div class="kanban-col" data-status="done">
+          <div class="kanban-head"><span class="kanban-title">✅ Fait</span><span class="kanban-count">0</span></div>
+          <div class="kanban-body"></div>
+        </div>
+      </div>
+
+      <div id="archive-zone" class="archive-zone" hidden>🗄 Glisser une carte ici pour l'archiver</div>
+      <div id="archived-wrap" class="archived-wrap" hidden></div>
+
       <div class="tasks-sync" id="tasks-sync"></div>
     </section>
 
