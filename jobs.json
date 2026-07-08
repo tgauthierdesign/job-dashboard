@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-07T10:46:52+02:00",
-  "last_checked": "2026-07-07T10:46:52+02:00",
+  "last_updated": "2026-07-08T18:28:17+02:00",
+  "last_checked": "2026-07-08T18:28:17+02:00",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -164,6 +164,19 @@
       "local": false,
       "url": "https://cintoo.factorial.fr/job_posting/vr-xr-developer-remote-or-hybrid-251363",
       "note": "Orienté développement plus que design — pertinent pour le volet VR."
+    },
+    {
+      "id": "digidop-uxui-remote",
+      "title": "UX/UI Designer confirmé",
+      "company": "Digidop",
+      "location": "Full remote France",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.digidop.com/fr/carrrieres/ux-ui-designer",
+      "note": "Vérifiée active le 08/07/2026. Agence Webflow (nominée Webflow Awards), forte culture IA (Figma, Claude, Cursor). Exp. 3-5 ans, démarrage ASAP — à confirmer compatibilité avec dispo septembre 2026. Candidature : https://digidopfr.notion.site/35a2fe7b2767816c82a4e5f197325245"
     }
   ],
   "resources": [
