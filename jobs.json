@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-08T18:28:17+02:00",
-  "last_checked": "2026-07-08T18:28:17+02:00",
+  "last_updated": "2026-07-09T08:14:00+02:00",
+  "last_checked": "2026-07-09T08:14:00+02:00",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -11,6 +11,19 @@
   "local_keywords": ["Lannion", "Perros-Guirec", "Trégor", "Trebeurden", "Bretagne", "Anticipa"],
   "jobs": [
     {
+      "id": "onspark-uxui-rennes",
+      "title": "UX/UI Designer",
+      "company": "OnSpark",
+      "location": "Rennes",
+      "contract": "CDI",
+      "salary": null,
+      "posted": "2026-06-08",
+      "new": true,
+      "local": false,
+      "url": "https://fr.indeed.com/viewjob?jk=b8779fa004fc38b8",
+      "note": "Mission dans le cadre d'un accord-cadre avec une collectivité territoriale bretonne (cabinet conseil intégration SI). Option Freelance également mentionnée. Télétravail partiel. Tous niveaux acceptés. Démarrage annoncé fin 2026 (légèrement après la dispo de Thomas en septembre 2026) — à vérifier lors de la candidature."
+    },
+    {
       "id": "apitic-uiux-lannion",
       "title": "Designer UI/UX Web",
       "company": "APITIC",
@@ -18,7 +31,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": "2026-07-06",
-      "new": true,
+      "new": false,
       "local": true,
       "url": "https://fr.trabajo.org/offre-2958-18c24c79ccf6b45bd9bc17f58e0c0674",
       "note": "Poste local prioritaire (Lannion, à ~15 min de Perros-Guirec).",
@@ -119,7 +132,7 @@
       "contract": "CDI",
       "salary": "50–55 K€",
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/companies/warren-walter/jobs/product-designer-senior-h-f_paris_WW_jLj5wZl",
       "note": "Démarrage annoncé 09/07/2026. Télétravail fréquent."
@@ -132,7 +145,7 @@
       "contract": null,
       "salary": null,
       "posted": "2026-07-02",
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://fr.trabajo.org/offre-2958-77b1d6fe2a880e428a5d7124bd3f3ecd",
       "note": "Full remote.",
@@ -173,7 +186,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://www.digidop.com/fr/carrrieres/ux-ui-designer",
       "note": "Vérifiée active le 08/07/2026. Agence Webflow (nominée Webflow Awards), forte culture IA (Figma, Claude, Cursor). Exp. 3-5 ans, démarrage ASAP — à confirmer compatibilité avec dispo septembre 2026. Candidature : https://digidopfr.notion.site/35a2fe7b2767816c82a4e5f197325245"
