@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-10T14:05:07+02:00",
-  "scraping_status": "failing",
-  "status_note": "LeBonCoin bloque (cookie wall/anti-bot, 0 annonces extraites), Vinted ne retourne aucune donnee exploitable (__NEXT_DATA__ absent ou structure changee), BackMarket charge mais l'extraction ne trouve que des faux positifs (URLs d'images iPad/iPhone mini) sans vraies fiches produit Mac Studio/mini 64Go+.",
+  "last_checked": "2026-07-10T21:16:20+02:00",
+  "scraping_status": "partial",
+  "status_note": "BackMarket a repondu (0 match reel, faux positifs images sur mini). LeBonCoin et Vinted: 0 resultats, probable blocage anti-bot/cookie wall.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
