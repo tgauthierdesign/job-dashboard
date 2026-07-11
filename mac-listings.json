@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-11T15:16:47+02:00",
-  "scraping_status": "partial",
-  "status_note": "BackMarket OK (aucun Mac Studio/mini 64Go+ Max/Ultra en stock actuellement). LeBonCoin: page chargee mais aucune annonce extraite (rendu JS incomplet). Vinted: bloque par Datadome/captcha.",
+  "last_checked": "2026-07-11T18:16:48+02:00",
+  "scraping_status": "failing",
+  "status_note": "Scraping bloque (cookie wall Didomi sur BackMarket, 0 resultats sur LeBonCoin et Vinted) - aucune donnee produit exploitable.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
