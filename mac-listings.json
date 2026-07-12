@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-12T21:16:29+02:00",
+  "last_checked": "2026-07-13T00:19:00+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket: donnees recuperees, aucune correspondance 64Go+/1To+/Max-Ultra-Pro. LeBonCoin: NO_RESULTS (probable blocage anti-bot/cookie wall). Vinted: NO_DATA (probable blocage anti-bot, structure page non reconnue).",
+  "status_note": "LeBonCoin bloque (DataDome+captcha, page vide). BackMarket charge mais categorie mac-studio-reconditionne ne renvoie aucune donnee produit exploitable (page generique, ID de categorie possiblement obsolete). Vinted fonctionne et renvoie de vraies donnees mais aucun match reel : recherches polluees par des produits MAC cosmetics, et les Mac mini/Studio Apple presents sont tous en dessous de 64Go RAM (ex: Mac Mini M4 24Go/2To a 1950EUR - RAM insuffisante).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
