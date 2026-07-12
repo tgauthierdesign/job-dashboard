@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-12T06:20:13+02:00",
-  "scraping_status": "partial",
-  "status_note": "Vinted OK (96 annonces Mac mini + recherche Mac Studio scannees, aucune >=64Go/1To/Max-Ultra-Pro trouvee). BackMarket bloque sur cookie-wall (contenu produits charge en JS post-consentement, non capture). LeBonCoin bloque par captcha DataDome.",
+  "last_checked": "2026-07-12T15:17:01+02:00",
+  "scraping_status": "failing",
+  "status_note": "Scraping bloque sur les 3 plateformes : BackMarket (cookie wall Didomi bloque le rendu), LeBonCoin (DataDome/captcha), Vinted (DataDome/captcha).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
