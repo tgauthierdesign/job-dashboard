@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-12T00:20:01+02:00",
-  "scraping_status": "partial",
-  "status_note": "LeBonCoin OK (13 Mac Studio + annonces Mac mini vues, aucune sous 2520EUR TTC avec specs valides — moins cher: M1 Max 64Go/2To a 2700EUR). BackMarket: URL categorie redirige vers homepage (page cassee, plus de vraies fiches produit). Vinted: bloque par Datadome/captcha.",
+  "last_checked": "2026-07-12T03:16:04+02:00",
+  "scraping_status": "failing",
+  "status_note": "Scraping bloque sur les 3 plateformes : chromium headless renvoie 0 octet (BackMarket, LeBonCoin) ou NO_DATA/NO_RESULTS (Vinted) - probable blocage anti-bot ou changement de structure page.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
