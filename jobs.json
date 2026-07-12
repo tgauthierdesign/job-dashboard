@@ -1,14 +1,25 @@
 {
-  "last_updated": "2026-07-12T08:13:00+02:00",
-  "last_checked": "2026-07-12T08:13:00+02:00",
+  "last_updated": "2026-07-12T08:15:06+02:00",
+  "last_checked": "2026-07-12T08:15:06+02:00",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
-    "contracts": ["CDI", "CDD", "Freelance"],
+    "contracts": [
+      "CDI",
+      "CDD",
+      "Freelance"
+    ],
     "target_area": "Perros-Guirec / Lannion / Bretagne",
     "available_from": "2026-09"
   },
-  "local_keywords": ["Lannion", "Perros-Guirec", "Trégor", "Trebeurden", "Bretagne", "Anticipa"],
+  "local_keywords": [
+    "Lannion",
+    "Perros-Guirec",
+    "Trégor",
+    "Trebeurden",
+    "Bretagne",
+    "Anticipa"
+  ],
   "jobs": [
     {
       "id": "onspark-uxui-rennes",
@@ -272,6 +283,32 @@
       "note": "⚠️ Trouvée via agrégateur, pas encore vérifiée en direct par jarvis-max. Full remote annoncé, compatible Bretagne ; contrat non précisé (probable CDI).",
       "expired": true,
       "expired_reason": "Vérification par fetch HTTP le 12/07/2026 (pas de navigateur chromium disponible) : L'Étudiant renvoie HTTP 410 Gone sur cette URL — l'annonce n'existe plus."
+    },
+    {
+      "id": "orange-uxui-lannion",
+      "title": "UX/UI Designer F/H",
+      "company": "Orange",
+      "location": "Lannion",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": true,
+      "local": true,
+      "url": "https://www.wizbii.com/company/orange/job/ux-ui-designer-f-h-4",
+      "note": "Équipe Xperience Design Lab (XDLab) d'Orange, présente à Lannion (zone Anticipa). Poste axé stratégie de service, parcours utilisateurs, spécifications IHM, pilotage graphique agile. BAC+5 design UX-UI, anglais courant requis. Annonce signalée comme expirant bientôt — candidater rapidement."
+    },
+    {
+      "id": "listentoo-uxui-brest",
+      "title": "UX/UI Designer",
+      "company": "Listen too",
+      "location": "Brest",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/listen-too/jobs/ux-ui-designer-brest_brest",
+      "note": "Agence conseil digitalisation (relation client/collaborateur). Missions UX/UI classiques (wireframes, prototypes, maquettes Figma), exigence RGAA/accessibilité. Télétravail partiel possible. Process en 3 étapes (RH → Business & Talent Manager → co-fondateur)."
     },
     {
       "id": "inetum-architecte-arvr-lyon",
