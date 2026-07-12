@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-12T18:17:29+02:00",
-  "scraping_status": "failing",
-  "status_note": "BackMarket: NUXT data OK mais aucun produit Max/Ultra/Pro 64Go+/1To+ matche (mini a renvoye des URLs images ipad/iphone mini). LeBonCoin: NO_RESULTS (anti-bot/JS). Vinted: NO_DATA (rendu JS, pas de __NEXT_DATA__ dans le DOM). Aucune annonce exploitable.",
+  "last_checked": "2026-07-12T21:16:29+02:00",
+  "scraping_status": "partial",
+  "status_note": "BackMarket: donnees recuperees, aucune correspondance 64Go+/1To+/Max-Ultra-Pro. LeBonCoin: NO_RESULTS (probable blocage anti-bot/cookie wall). Vinted: NO_DATA (probable blocage anti-bot, structure page non reconnue).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
