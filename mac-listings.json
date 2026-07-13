@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-13T03:17:26+02:00",
-  "scraping_status": "partial",
-  "status_note": "BackMarket accessible (data NUXT parsee) mais 0 config eligible (>=64Go/>=1To/Max-Ultra-Pro/<=2520EUR TTC) — que des faux positifs images sur mac mini. LeBonCoin NO_RESULTS et Vinted NO_DATA (anti-bot Datadome/cookie wall).",
+  "last_checked": "2026-07-13T06:17:31+02:00",
+  "scraping_status": "failing",
+  "status_note": "Aucune annonce exploitable extraite ce run: BackMarket (Studio: NUXT parsé mais 0 produit correspondant; mini: seul un asset image ipad-mini renvoyé, aucun vrai listing), LeBonCoin bloqué (NO_RESULTS, anti-bot Datadome probable), Vinted bloqué (NO_DATA, cookie/JS wall). 0 produit valide.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
