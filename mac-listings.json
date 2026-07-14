@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-14T07:57:27+02:00",
-  "scraping_status": "failing",
-  "status_note": "Scraping bloque (cookie/consent wall BackMarket + DataDome LeBonCoin/Vinted) - aucune donnee produit exploitable sur les 6 sous-commandes.",
+  "last_checked": "2026-07-14T13:56:45+02:00",
+  "scraping_status": "partial",
+  "status_note": "BackMarket OK (aucun match 64Go+/1To+/Max-Ultra-Pro trouve). LeBonCoin bloque (cookie consent/forbidden). Vinted bloque (DataDome/Captcha).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
