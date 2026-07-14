@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-14T20:03:50+02:00",
-  "scraping_status": "partial",
-  "status_note": "BackMarket: URL Mac Studio en 404 (categorie obsolete), Mac mini charge mais donnees produits non presentes dans le HTML initial (chargement client-side). Vinted: aucune annonce Apple pertinente (marketplace mode, pas d'ordinateurs). LeBonCoin: OK, scraping fonctionnel.",
+  "last_checked": "2026-07-14T22:58:36+02:00",
+  "scraping_status": "failing",
+  "status_note": "Scraping bloque (Cloudflare/Datadome/cookie wall ou reponse vide) sur LeBonCoin, BackMarket et Vinted.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
