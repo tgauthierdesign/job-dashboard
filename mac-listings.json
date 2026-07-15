@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-15T06:53:56+02:00",
-  "scraping_status": "failing",
-  "status_note": "Scraping bloque (Cloudflare/Datadome/cookie wall) sur LeBonCoin, BackMarket et Vinted.",
+  "last_checked": "2026-07-15T09:54:31+02:00",
+  "scraping_status": "partial",
+  "status_note": "BackMarket Mac Studio bloque par cookie wall (pas de rendu). BackMarket Mac mini, LeBonCoin et Vinted OK. Aucun 64Go+ dispo cote BackMarket mini/Vinted.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
@@ -28,7 +28,7 @@
       "platform": "LeBonCoin",
       "url": "https://www.leboncoin.fr/ad/ordinateurs/3232269740",
       "found_at": "2026-07-14",
-      "note": "verifie M1 Max 64Go/2To, sous budget"
+      "note": "Vendeur particulier (pas de facture TVA recuperable) - a verifier avant achat"
     },
     {
       "id": "leb-2282550372",
