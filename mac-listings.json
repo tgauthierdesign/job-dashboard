@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-18T12:39:39+02:00",
+  "last_checked": "2026-07-18T15:45:26+02:00",
   "scraping_status": "failing",
-  "status_note": "Scraping bloque (Cloudflare/Datadome/cookie wall) sur LeBonCoin, BackMarket et Vinted.",
+  "status_note": "2026-07-18: 6/6 sources cassées. BackMarket NO_DATA (Cloudflare challenge, pas de __NUXT_DATA__). LeBonCoin NO_RESULTS (cookie wall RGPD, redirection sans params). Vinted NO_DATA (DataDome, pas de __NEXT_DATA__). Aucun produit exploitable.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
