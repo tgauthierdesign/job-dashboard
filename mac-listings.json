@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-19T10:42:54+02:00",
-  "scraping_status": "partial",
-  "status_note": "BackMarket bloque par Cloudflare (interstitiel). Vinted bloque par DataDome+captcha. LeBonCoin OK (donnees recuperees) mais selecteur du script cron obsolete (aditem_title -> aditem_container) ; extraction manuelle a confirme 0 match sous 2520EUR TTC (le moins cher: Mac Studio M1 Max 64Go/2To a 2700EUR).",
+  "last_checked": "2026-07-19T13:37:57+02:00",
+  "scraping_status": "failing",
+  "status_note": "Scraping bloque (Cloudflare 'Un instant...' sur BackMarket, cookie wall/DataDome probable sur LeBonCoin et Vinted) - 0/6 sous-commandes exploitables.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
