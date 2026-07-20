@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-20T14:30:11+02:00",
+  "last_checked": "2026-07-20T17:42:43+02:00",
   "scraping_status": "partial",
-  "status_note": "LeBonCoin OK (match trouve), BackMarket OK (aucun 64Go+ dispo actuellement), Vinted bloque par DataDome/Captcha.",
+  "status_note": "LeBonCoin OK (1 match valide). BackMarket charge la page mais ne rend plus les produits en SSR/NUXT (grille client-side non capturée). Vinted bloque (NO_DATA/DataDome).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
@@ -51,11 +51,11 @@
     {
       "id": "leb-3235963156",
       "title": "Mac Studio M1 Max (CPU 10/GPU 32) - 64Go RAM / 2To SSD",
-      "price": "2100 EUR TTC",
+      "price": "2100€",
       "platform": "LeBonCoin",
       "url": "https://www.leboncoin.fr/ad/ordinateurs/3235963156",
       "found_at": "2026-07-20",
-      "note": "M1 Max, 64Go RAM, 2To SSD, sous budget"
+      "note": "64Go RAM, 2To SSD, M1 Max, 2100€ TTC (~1750€ HT)"
     }
   ]
 }
