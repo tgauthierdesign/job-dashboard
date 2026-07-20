@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-12T08:15:06+02:00",
-  "last_checked": "2026-07-19T18:07:00+02:00",
+  "last_updated": "2026-07-20T18:15:13+02:00",
+  "last_checked": "2026-07-20T18:15:13+02:00",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -322,6 +322,19 @@
       "local": false,
       "url": "https://fr.trabajo.org/offre-2958-eac1c9cbba090af683c221d6e6a1cbcf",
       "note": "Vérifiée active par fetch HTTP le 12/07/2026 (page légitime, postée « il y a 1 jour », candidature disponible via trabajo.org — pas de navigateur chromium disponible pour un rendu complet). Seule offre VR/AR « confirmée » trouvée ce soir, mais profil plus architecture technique/dev (SKYREAL, PLM 3D) que design UX ; Lyon, pas Bretagne."
+    },
+    {
+      "id": "sandora-vr-narrative-designer-paris",
+      "title": "Narrative Designer XR",
+      "company": "Sandora VR",
+      "location": "Paris",
+      "contract": "CDD / Freelance",
+      "salary": null,
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://cnxr.fr/jobs/cdd-freelance-narrative-designer-xr-sandora-vr-paris/",
+      "note": "Expériences immersives VR/patrimoine. Orientation narrative plus qu'UX/UI pur, mais c'est la seule offre VR/immersif fraîche trouvée ce cycle. Format CDD/Freelance = potentiel remote partiel à confirmer."
     }
   ],
   "resources": [
