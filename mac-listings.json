@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-21T05:59:40+02:00",
+  "last_checked": "2026-07-21T09:48:20+02:00",
   "scraping_status": "failing",
-  "status_note": "Blocage anti-bot 3/3 ce run: Cloudflare challenge sur BackMarket (Studio et Mini), DataDome/captcha sur LeBonCoin (Studio et Mini) et Vinted. Situation redevenue bloquante après l'amelioration notee le 2026-07-20/21 (comportement anti-bot instable).",
+  "status_note": "Scraping bloque sur les 3 plateformes : BackMarket (NO_DATA sur Studio et mini), LeBonCoin (captcha desormais, alors que ca marchait avant), Vinted (NO_DATA, probablement DataDome).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
