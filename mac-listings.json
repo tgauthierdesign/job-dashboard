@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-21T03:02:43+02:00",
-  "scraping_status": "partial",
-  "status_note": "LeBonCoin OK (Studio+mini). Vinted bloque (DataDome). BackMarket: Mac mini OK, Mac Studio 404 (URL categorie obsolete).",
+  "last_checked": "2026-07-21T05:59:40+02:00",
+  "scraping_status": "failing",
+  "status_note": "Blocage anti-bot 3/3 ce run: Cloudflare challenge sur BackMarket (Studio et Mini), DataDome/captcha sur LeBonCoin (Studio et Mini) et Vinted. Situation redevenue bloquante après l'amelioration notee le 2026-07-20/21 (comportement anti-bot instable).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
