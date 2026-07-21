@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T07:20:49+02:00",
+  "generated_at": "2026-07-21T06:15:16+02:00",
   "restaurant": "Strojna",
   "last_closed_month": {
     "label": "Juin 2026",
@@ -40,7 +40,7 @@
     },
     {
       "level": "warn",
-      "text": "Inventaire stock daté du 2026-05-05 (76 j) — potentiellement obsolète."
+      "text": "Inventaire stock daté du 2026-05-05 (77 j) — potentiellement obsolète."
     }
   ]
 }
