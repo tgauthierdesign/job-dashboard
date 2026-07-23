@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-23T03:52:50+02:00",
+  "last_checked": "2026-07-23T06:53:39+02:00",
   "scraping_status": "failing",
-  "status_note": "Scraping bloque (NO_DATA/NO_RESULTS) sur LeBonCoin, BackMarket et Vinted.",
+  "status_note": "Run 2026-07-23 06:52: 6/6 sous-commandes en echec. BackMarket=NO_DATA (pas de __NUXT_DATA__, anti-bot), LeBonCoin=NO_RESULTS (DataDome), Vinted=NO_DATA (pas de __NEXT_DATA__, anti-bot). Aucune annonce exploitable. 4e run consecutif en echec.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
