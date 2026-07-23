@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-23T00:53:00+02:00",
+  "last_checked": "2026-07-23T03:52:50+02:00",
   "scraping_status": "failing",
-  "status_note": "Scraping bloque (Cloudflare/Datadome/cookie wall) sur LeBonCoin, BackMarket et Vinted.",
+  "status_note": "Scraping bloque (NO_DATA/NO_RESULTS) sur LeBonCoin, BackMarket et Vinted.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
