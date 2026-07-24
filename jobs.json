@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-07-24T18:15:23+02:00",
-  "last_checked": "2026-07-24T18:15:23+02:00",
+  "last_checked": "2026-07-24",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -32,7 +32,9 @@
       "new": false,
       "local": false,
       "url": "https://fr.indeed.com/viewjob?jk=b8779fa004fc38b8",
-      "note": "Mission dans le cadre d'un accord-cadre avec une collectivité territoriale bretonne (cabinet conseil intégration SI). Option Freelance également mentionnée. Télétravail partiel. Tous niveaux acceptés. Démarrage annoncé fin 2026 (légèrement après la dispo de Thomas en septembre 2026) — à vérifier lors de la candidature."
+      "note": "Mission dans le cadre d'un accord-cadre avec une collectivité territoriale bretonne (cabinet conseil intégration SI). Option Freelance également mentionnée. Télétravail partiel. Tous niveaux acceptés. Démarrage annoncé fin 2026 (légèrement après la dispo de Thomas en septembre 2026) — à vérifier lors de la candidature.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "apitic-uiux-lannion",
@@ -47,7 +49,9 @@
       "url": "https://fr.trabajo.org/offre-2958-18c24c79ccf6b45bd9bc17f58e0c0674",
       "note": "Poste local prioritaire (Lannion, à ~15 min de Perros-Guirec).",
       "expired": true,
-      "expired_reason": "Page supprimée (HTTP 410) — l'annonce n'existe plus sur trabajo.org."
+      "expired_reason": "Page supprimée (HTTP 410) — l'annonce n'existe plus sur trabajo.org.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "thales-ui-rennes",
@@ -62,7 +66,9 @@
       "url": "https://www.welcometothejungle.com/fr/pages/emploi-ux-designer-rennes-35000",
       "note": null,
       "expired": true,
-      "expired_reason": "Offre spécifique introuvable — le lien renvoie vers une page de recherche générique WTTJ, pas vers une annonce Thales active."
+      "expired_reason": "Offre spécifique introuvable — le lien renvoie vers une page de recherche générique WTTJ, pas vers une annonce Thales active.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "ateme-product-rennes",
@@ -75,7 +81,9 @@
       "new": false,
       "local": false,
       "url": "https://careers.ateme.com/jobs/7923031-product-designer-junior-ux-ui-h-f",
-      "note": null
+      "note": null,
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "momento-ux-rennes-paris",
@@ -90,7 +98,9 @@
       "url": "https://www.hellowork.com/fr-fr/emplois/78070603.html",
       "note": null,
       "expired": true,
-      "expired_reason": "Annonce clôturée (HTTP 410) — HelloWork indique que l'offre n'est plus disponible."
+      "expired_reason": "Annonce clôturée (HTTP 410) — HelloWork indique que l'offre n'est plus disponible.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "samsic-uxui-rennes",
@@ -105,7 +115,9 @@
       "url": "https://www.e-works.fr/offre-emploi/ux-ui-designer-fh-21629.html",
       "note": null,
       "expired": true,
-      "expired_reason": "Page introuvable (404 « Page non trouvée ») — l'annonce a été retirée d'E-Works."
+      "expired_reason": "Page introuvable (404 « Page non trouvée ») — l'annonce a été retirée d'E-Works.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "roullier-product-saintmalo",
@@ -118,7 +130,9 @@
       "new": false,
       "local": false,
       "url": "https://www.jobijoba.com/fr/annonce/54/13c60d4576f414aeeca2c054e138e801",
-      "note": "Republiée le 10/07 sous TIMAB Magnesium (filiale Roullier). Télétravail partiel possible."
+      "note": "Republiée le 10/07 sous TIMAB Magnesium (filiale Roullier). Télétravail partiel possible.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "metroscope-product-paris",
@@ -131,7 +145,8 @@
       "new": false,
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/companies/metroscope/jobs/senior-product-designer_paris",
-      "note": "Télétravail fréquent."
+      "note": "Télétravail fréquent.",
+      "status": "uncertain"
     },
     {
       "id": "warrenwalter-product-paris",
@@ -144,7 +159,8 @@
       "new": false,
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/companies/warren-walter/jobs/product-designer-senior-h-f_paris_WW_jLj5wZl",
-      "note": "Démarrage annoncé 09/07/2026. Télétravail fréquent."
+      "note": "Démarrage annoncé 09/07/2026. Télétravail fréquent.",
+      "status": "uncertain"
     },
     {
       "id": "isagri-uxui-remote",
@@ -159,7 +175,9 @@
       "url": "https://fr.trabajo.org/offre-2958-77b1d6fe2a880e428a5d7124bd3f3ecd",
       "note": "Full remote.",
       "expired": true,
-      "expired_reason": "Page supprimée (HTTP 410) — l'annonce n'existe plus sur trabajo.org."
+      "expired_reason": "Page supprimée (HTTP 410) — l'annonce n'existe plus sur trabajo.org.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "ddome-ux-remote",
@@ -172,7 +190,8 @@
       "new": false,
       "local": false,
       "url": "https://jobera.com/job/ddome-senior-product-ux-designer-e6bc5921/",
-      "note": "⚠️ Source à fiabilité faible — vérifier l'annonce avant de postuler."
+      "note": "⚠️ Source à fiabilité faible — vérifier l'annonce avant de postuler.",
+      "status": "uncertain"
     },
     {
       "id": "cintoo-vrxr-biot",
@@ -185,7 +204,9 @@
       "new": false,
       "local": false,
       "url": "https://cintoo.factorial.fr/job_posting/vr-xr-developer-remote-or-hybrid-251363",
-      "note": "Orienté développement plus que design — pertinent pour le volet VR."
+      "note": "Orienté développement plus que design — pertinent pour le volet VR.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "digidop-uxui-remote",
@@ -198,7 +219,9 @@
       "new": false,
       "local": false,
       "url": "https://www.digidop.com/fr/carrrieres/ux-ui-designer",
-      "note": "Vérifiée active le 08/07/2026. Agence Webflow (nominée Webflow Awards), forte culture IA (Figma, Claude, Cursor). Exp. 3-5 ans, démarrage ASAP — à confirmer compatibilité avec dispo septembre 2026. Candidature : https://digidopfr.notion.site/35a2fe7b2767816c82a4e5f197325245"
+      "note": "Vérifiée active le 08/07/2026. Agence Webflow (nominée Webflow Awards), forte culture IA (Figma, Claude, Cursor). Exp. 3-5 ans, démarrage ASAP — à confirmer compatibilité avec dispo septembre 2026. Candidature : https://digidopfr.notion.site/35a2fe7b2767816c82a4e5f197325245",
+      "active": true,
+      "status": "active"
     },
     {
       "id": "source-designer-produit-remote-paris",
@@ -211,7 +234,8 @@
       "new": false,
       "local": false,
       "url": "https://jobs.lever.co/source/1fc9a8c8-afc4-4cb3-b9f9-2f399860ef84",
-      "note": "Agence design remote-first, produits B2B complexes — très bon fit remote pour profil basé en Bretagne. Vérifiée active (HTTP 200) par la veille du 11/07/2026."
+      "note": "Agence design remote-first, produits B2B complexes — très bon fit remote pour profil basé en Bretagne. Vérifiée active (HTTP 200) par la veille du 11/07/2026.",
+      "status": "uncertain"
     },
     {
       "id": "spartes-product-designer-paris",
@@ -224,7 +248,9 @@
       "new": false,
       "local": false,
       "url": "https://spartes.teamtailor.com/jobs/7874072-product-designer-f-h-paris-cdi",
-      "note": "Page ATS active (HTTP 200) vérifiée le 11/07/2026 — vérifier la politique de télétravail avant candidature."
+      "note": "Page ATS active (HTTP 200) vérifiée le 11/07/2026 — vérifier la politique de télétravail avant candidature.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "lunii-product-designer",
@@ -237,7 +263,9 @@
       "new": false,
       "local": false,
       "url": "https://carriere.lunii.com/jobs/7851849-product-designer-f-h-cdi",
-      "note": "Vérifiée active (HTTP 200) le 11/07/2026. Produit hardware + digital pour enfants, périmètre design intéressant."
+      "note": "Vérifiée active (HTTP 200) le 11/07/2026. Produit hardware + digital pour enfants, périmètre design intéressant.",
+      "active": true,
+      "status": "active"
     },
     {
       "id": "niji-uiux-rennes",
@@ -252,7 +280,9 @@
       "url": "https://www.sercanto.fr/detail/a/ui-ux-designer-h-f_rennes_205445727",
       "note": "⚠️ Trouvée via agrégateur (Sercanto), pas encore vérifiée en direct par jarvis-max. Meilleur fit régional (agence Digital Design de Niji à Rennes) — à confirmer sur le site carrière Niji.",
       "expired": true,
-      "expired_reason": "Vérification par fetch HTTP le 12/07/2026 (pas de navigateur chromium disponible dans l'environnement) : la page Sercanto affiche « Oooops, cette annonce n'est plus disponible. » — l'annonce semble retirée. À reconfirmer manuellement / via le site carrière Niji avant d'écarter définitivement."
+      "expired_reason": "Vérification par fetch HTTP le 12/07/2026 (pas de navigateur chromium disponible dans l'environnement) : la page Sercanto affiche « Oooops, cette annonce n'est plus disponible. » — l'annonce semble retirée. À reconfirmer manuellement / via le site carrière Niji avant d'écarter définitivement.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "iadvize-senior-product-designer",
@@ -267,7 +297,9 @@
       "url": "https://www.hellowork.com/fr-fr/emplois/67636042.html",
       "note": "⚠️ Trouvée via agrégateur, pas encore vérifiée en direct par jarvis-max. Poste sénior — vérifier l'option remote avant de postuler.",
       "expired": true,
-      "expired_reason": "Vérification par fetch HTTP le 12/07/2026 (pas de navigateur chromium disponible) : HelloWork renvoie HTTP 410 Gone sur cette URL — l'annonce n'existe plus."
+      "expired_reason": "Vérification par fetch HTTP le 12/07/2026 (pas de navigateur chromium disponible) : HelloWork renvoie HTTP 410 Gone sur cette URL — l'annonce n'existe plus.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "skaelia-uxui-fullremote",
@@ -282,7 +314,9 @@
       "url": "https://jobs-stages.letudiant.fr/entreprises/skaelia/offres/ux-ui-designer-full-remote-h-f-departement-de-paris-france",
       "note": "⚠️ Trouvée via agrégateur, pas encore vérifiée en direct par jarvis-max. Full remote annoncé, compatible Bretagne ; contrat non précisé (probable CDI).",
       "expired": true,
-      "expired_reason": "Vérification par fetch HTTP le 12/07/2026 (pas de navigateur chromium disponible) : L'Étudiant renvoie HTTP 410 Gone sur cette URL — l'annonce n'existe plus."
+      "expired_reason": "Vérification par fetch HTTP le 12/07/2026 (pas de navigateur chromium disponible) : L'Étudiant renvoie HTTP 410 Gone sur cette URL — l'annonce n'existe plus.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "orange-uxui-lannion",
@@ -295,7 +329,9 @@
       "new": false,
       "local": true,
       "url": "https://www.wizbii.com/company/orange/job/ux-ui-designer-f-h-4",
-      "note": "Équipe Xperience Design Lab (XDLab) d'Orange, présente à Lannion (zone Anticipa). Poste axé stratégie de service, parcours utilisateurs, spécifications IHM, pilotage graphique agile. BAC+5 design UX-UI, anglais courant requis. Annonce signalée comme expirant bientôt — candidater rapidement."
+      "note": "Équipe Xperience Design Lab (XDLab) d'Orange, présente à Lannion (zone Anticipa). Poste axé stratégie de service, parcours utilisateurs, spécifications IHM, pilotage graphique agile. BAC+5 design UX-UI, anglais courant requis. Annonce signalée comme expirant bientôt — candidater rapidement.",
+      "active": true,
+      "status": "active"
     },
     {
       "id": "listentoo-uxui-brest",
@@ -308,7 +344,8 @@
       "new": false,
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/companies/listen-too/jobs/ux-ui-designer-brest_brest",
-      "note": "Agence conseil digitalisation (relation client/collaborateur). Missions UX/UI classiques (wireframes, prototypes, maquettes Figma), exigence RGAA/accessibilité. Télétravail partiel possible. Process en 3 étapes (RH → Business & Talent Manager → co-fondateur)."
+      "note": "Agence conseil digitalisation (relation client/collaborateur). Missions UX/UI classiques (wireframes, prototypes, maquettes Figma), exigence RGAA/accessibilité. Télétravail partiel possible. Process en 3 étapes (RH → Business & Talent Manager → co-fondateur).",
+      "status": "uncertain"
     },
     {
       "id": "inetum-architecte-arvr-lyon",
@@ -321,7 +358,9 @@
       "new": false,
       "local": false,
       "url": "https://fr.trabajo.org/offre-2958-eac1c9cbba090af683c221d6e6a1cbcf",
-      "note": "Vérifiée active par fetch HTTP le 12/07/2026 (page légitime, postée « il y a 1 jour », candidature disponible via trabajo.org — pas de navigateur chromium disponible pour un rendu complet). Seule offre VR/AR « confirmée » trouvée ce soir, mais profil plus architecture technique/dev (SKYREAL, PLM 3D) que design UX ; Lyon, pas Bretagne."
+      "note": "Vérifiée active par fetch HTTP le 12/07/2026 (page légitime, postée « il y a 1 jour », candidature disponible via trabajo.org — pas de navigateur chromium disponible pour un rendu complet). Seule offre VR/AR « confirmée » trouvée ce soir, mais profil plus architecture technique/dev (SKYREAL, PLM 3D) que design UX ; Lyon, pas Bretagne.",
+      "active": true,
+      "status": "active"
     },
     {
       "id": "sandora-vr-narrative-designer-paris",
@@ -334,7 +373,8 @@
       "new": false,
       "local": false,
       "url": "https://cnxr.fr/jobs/cdd-freelance-narrative-designer-xr-sandora-vr-paris/",
-      "note": "Expériences immersives VR/patrimoine. Orientation narrative plus qu'UX/UI pur, mais c'est la seule offre VR/immersif fraîche trouvée ce cycle. Format CDD/Freelance = potentiel remote partiel à confirmer."
+      "note": "Expériences immersives VR/patrimoine. Orientation narrative plus qu'UX/UI pur, mais c'est la seule offre VR/immersif fraîche trouvée ce cycle. Format CDD/Freelance = potentiel remote partiel à confirmer.",
+      "status": "uncertain"
     },
     {
       "id": "meije-spatialui-visionos-paris",
