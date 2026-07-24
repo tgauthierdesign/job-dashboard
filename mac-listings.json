@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-24T18:05:33+02:00",
-  "scraping_status": "failing",
-  "status_note": "Scraping bloque (Cloudflare/Datadome/cookie wall) sur LeBonCoin, BackMarket et Vinted.",
+  "last_checked": "2026-07-24T22:31:51+02:00",
+  "scraping_status": "partial",
+  "status_note": "LeBonCoin OK ce run (Studio+Mini). BackMarket bloque par Cloudflare (Studio+Mini). Vinted bloque par DataDome (Studio+Mini).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
@@ -56,6 +56,15 @@
       "url": "https://www.leboncoin.fr/ad/ordinateurs/3235963156",
       "found_at": "2026-07-20",
       "note": "verifie M1 Max 64Go/2To, sous budget"
+    },
+    {
+      "id": "leb-3237604812",
+      "title": "Mac Studio M1 Max (CPU10/GPU32) 64Go/1To",
+      "price": "1800 EUR TTC",
+      "platform": "LeBonCoin",
+      "url": "https://www.leboncoin.fr/ad/ordinateurs/3237604812",
+      "found_at": "2026-07-24",
+      "note": "verifie M1 Max 64Go/1To, tres sous budget (1800EUR vs 2520EUR max)"
     }
   ]
 }
