@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-20T18:15:13+02:00",
-  "last_checked": "2026-07-20T18:15:13+02:00",
+  "last_updated": "2026-07-24T18:15:23+02:00",
+  "last_checked": "2026-07-24T18:15:23+02:00",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -29,7 +29,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": "2026-06-08",
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://fr.indeed.com/viewjob?jk=b8779fa004fc38b8",
       "note": "Mission dans le cadre d'un accord-cadre avec une collectivité territoriale bretonne (cabinet conseil intégration SI). Option Freelance également mentionnée. Télétravail partiel. Tous niveaux acceptés. Démarrage annoncé fin 2026 (légèrement après la dispo de Thomas en septembre 2026) — à vérifier lors de la candidature."
@@ -208,7 +208,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://jobs.lever.co/source/1fc9a8c8-afc4-4cb3-b9f9-2f399860ef84",
       "note": "Agence design remote-first, produits B2B complexes — très bon fit remote pour profil basé en Bretagne. Vérifiée active (HTTP 200) par la veille du 11/07/2026."
@@ -221,7 +221,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://spartes.teamtailor.com/jobs/7874072-product-designer-f-h-paris-cdi",
       "note": "Page ATS active (HTTP 200) vérifiée le 11/07/2026 — vérifier la politique de télétravail avant candidature."
@@ -234,7 +234,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://carriere.lunii.com/jobs/7851849-product-designer-f-h-cdi",
       "note": "Vérifiée active (HTTP 200) le 11/07/2026. Produit hardware + digital pour enfants, périmètre design intéressant."
@@ -247,7 +247,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://www.sercanto.fr/detail/a/ui-ux-designer-h-f_rennes_205445727",
       "note": "⚠️ Trouvée via agrégateur (Sercanto), pas encore vérifiée en direct par jarvis-max. Meilleur fit régional (agence Digital Design de Niji à Rennes) — à confirmer sur le site carrière Niji.",
@@ -262,7 +262,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://www.hellowork.com/fr-fr/emplois/67636042.html",
       "note": "⚠️ Trouvée via agrégateur, pas encore vérifiée en direct par jarvis-max. Poste sénior — vérifier l'option remote avant de postuler.",
@@ -277,7 +277,7 @@
       "contract": null,
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://jobs-stages.letudiant.fr/entreprises/skaelia/offres/ux-ui-designer-full-remote-h-f-departement-de-paris-france",
       "note": "⚠️ Trouvée via agrégateur, pas encore vérifiée en direct par jarvis-max. Full remote annoncé, compatible Bretagne ; contrat non précisé (probable CDI).",
@@ -292,7 +292,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": true,
       "url": "https://www.wizbii.com/company/orange/job/ux-ui-designer-f-h-4",
       "note": "Équipe Xperience Design Lab (XDLab) d'Orange, présente à Lannion (zone Anticipa). Poste axé stratégie de service, parcours utilisateurs, spécifications IHM, pilotage graphique agile. BAC+5 design UX-UI, anglais courant requis. Annonce signalée comme expirant bientôt — candidater rapidement."
@@ -305,7 +305,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/companies/listen-too/jobs/ux-ui-designer-brest_brest",
       "note": "Agence conseil digitalisation (relation client/collaborateur). Missions UX/UI classiques (wireframes, prototypes, maquettes Figma), exigence RGAA/accessibilité. Télétravail partiel possible. Process en 3 étapes (RH → Business & Talent Manager → co-fondateur)."
@@ -318,7 +318,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://fr.trabajo.org/offre-2958-eac1c9cbba090af683c221d6e6a1cbcf",
       "note": "Vérifiée active par fetch HTTP le 12/07/2026 (page légitime, postée « il y a 1 jour », candidature disponible via trabajo.org — pas de navigateur chromium disponible pour un rendu complet). Seule offre VR/AR « confirmée » trouvée ce soir, mais profil plus architecture technique/dev (SKYREAL, PLM 3D) que design UX ; Lyon, pas Bretagne."
@@ -331,10 +331,23 @@
       "contract": "CDD / Freelance",
       "salary": null,
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://cnxr.fr/jobs/cdd-freelance-narrative-designer-xr-sandora-vr-paris/",
       "note": "Expériences immersives VR/patrimoine. Orientation narrative plus qu'UX/UI pur, mais c'est la seule offre VR/immersif fraîche trouvée ce cycle. Format CDD/Freelance = potentiel remote partiel à confirmer."
+    },
+    {
+      "id": "meije-spatialui-visionos-paris",
+      "title": "Spatial UI Designer – Apple Vision Pro / visionOS",
+      "company": "Studio Meije",
+      "location": "Paris (freelance, remote à confirmer)",
+      "contract": "Freelance",
+      "salary": null,
+      "posted": "2026-02-13",
+      "new": true,
+      "local": false,
+      "url": "https://cnxr.fr/jobs/freelance-spatial-ui-designer-apple-vision-pro-visionos-studio-meije-paris/",
+      "note": "Design d'interfaces 3D pour casque Vision Pro. Exige maîtrise Figma + expérience AR/VR concrète. Très bon match VR/XR + UI. Contact : contact[at]studiomeije.com. Freelance — à vérifier compatibilité avec démarrage septembre 2026."
     }
   ],
   "resources": [
