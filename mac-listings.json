@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-25T13:28:57+02:00",
+  "last_checked": "2026-07-25T23:41:05+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket et Vinted toujours bloques (Cloudflare/DataDome). LeBonCoin fonctionne (selecteur aditem_title obsolete, corrige a la volee) : 2 annonces valides trouvees sur la recherche Mac Studio.",
+  "status_note": "LeBonCoin OK. BackMarket bloque par Cloudflare (page interstitielle). Vinted bloque par DataDome (captcha, pas de donnees JSON).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
@@ -65,6 +65,15 @@
       "url": "https://www.leboncoin.fr/ad/ordinateurs/3237604812",
       "found_at": "2026-07-24",
       "note": "verifie M1 Max 64Go/1To, meme vendeur (Amaury, 5/5, 6 avis) que l'autre annonce"
+    },
+    {
+      "id": "leb-3073800382",
+      "title": "Neuf Mac Studio 8 To SSD M2 Ultra 24c 60c 64go ram facture et garantie",
+      "price": "1999 EUR TTC",
+      "platform": "LeBonCoin",
+      "url": "https://www.leboncoin.fr/ad/ordinateurs/3073800382",
+      "found_at": "2026-07-25",
+      "note": "ATTENTION prix tres suspect (M2 Ultra 64Go/8To vaut normalement 7000-8000EUR neuf) - probable arnaque, verifier vendeur avant tout contact"
     }
   ]
 }
