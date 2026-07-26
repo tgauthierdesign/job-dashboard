@@ -32,12 +32,12 @@
     },
     {
       "id": "leb-2282550372",
-      "title": "Mac mini 64Go RAM / 2To SSD (probable M4 Pro, seule puce mini a supporter 64Go)",
-      "price": "2000 EUR TTC",
+      "title": "[EXCLU] Mac mini Intel Core i7 8e gen (PAS Apple Silicon, ne correspond PAS aux criteres)",
+      "price": "900 EUR TTC",
       "platform": "LeBonCoin",
       "url": "https://www.leboncoin.fr/ad/ordinateurs/2282550372",
       "found_at": "2026-07-14",
-      "note": "Chip non precise dans le titre, deduit du RAM (64Go impossible sur M2 Pro)"
+      "note": "FAUX POSITIF confirme 2x (07-24 et 07-26): Intel Core i7 hexacoeur 8e gen, 64Go DDR4 (RAM generique, pas de memoire unifiee Apple), SSD 2To. Titre trompeur mentionnant 64go/2to ssd sans preciser Intel. A ignorer."
     },
     {
       "id": "leb-3233283242",
