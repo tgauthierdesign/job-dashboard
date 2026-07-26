@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-24T18:15:23+02:00",
-  "last_checked": "2026-07-24",
+  "last_updated": "2026-07-26T18:15:00+02:00",
+  "last_checked": "2026-07-26",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -384,10 +384,49 @@
       "contract": "Freelance",
       "salary": null,
       "posted": "2026-02-13",
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://cnxr.fr/jobs/freelance-spatial-ui-designer-apple-vision-pro-visionos-studio-meije-paris/",
       "note": "Design d'interfaces 3D pour casque Vision Pro. Exige maîtrise Figma + expérience AR/VR concrète. Très bon match VR/XR + UI. Contact : contact[at]studiomeije.com. Freelance — à vérifier compatibilité avec démarrage septembre 2026."
+    },
+    {
+      "id": "credit-agricole-ui-designer-vannes",
+      "title": "UI Designer (F/H)",
+      "company": "Crédit Agricole Technologies et Services",
+      "location": "Vannes",
+      "contract": "CDI",
+      "salary": null,
+      "posted": "2026-07-24",
+      "new": true,
+      "local": true,
+      "url": "https://carrieres.creditagricoletechnologiesservices.com/jobs/8123500-ui-designer-f-h",
+      "note": "Communauté design ~70 personnes sur 6 sites dont Vannes. Design system 'Muesli'. Hybride 3j site/2j télétravail. Exp. 3-5 ans requise."
+    },
+    {
+      "id": "bpce-ux-designer-lea-rennes",
+      "title": "UX Designer LEA (F/H)",
+      "company": "Groupe BPCE (BPCE VIE)",
+      "location": "Saint-Grégoire (Rennes)",
+      "contract": "CDD",
+      "salary": "32 300 – 51 800 €/an brut",
+      "posted": "2026-07-18",
+      "new": true,
+      "local": true,
+      "url": "https://recrutement.bpce.fr/job/ux-designer-lea-f-h",
+      "note": "CDD 7 mois. Télétravail 10j/mois après 6 mois. Axé dialogue utilisateurs, méthodes agiles. Vérifier compatibilité avec dispo dès sept. 2026."
+    },
+    {
+      "id": "drama-studios-game-ui-icon-rennes",
+      "title": "Game UI Icon Designer",
+      "company": "Drama Studios",
+      "location": "Rennes",
+      "contract": "Freelance",
+      "salary": null,
+      "posted": "2026-07-23",
+      "new": true,
+      "local": true,
+      "url": "https://emploi.afjv.com/emploi-jeux-video/EINF2343-29028",
+      "note": "Mission freelance : système d'icônes UI manette/clavier pour FPS Unreal Engine 5 (jeu UNRECORD). Périmètre étroit mais match contrat+localisation."
     }
   ],
   "resources": [
