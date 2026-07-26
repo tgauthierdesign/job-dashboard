@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-26T02:38:42+02:00",
+  "last_checked": "2026-07-26T05:37:56+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket bloque (Cloudflare challenge page). Vinted bloque (DataDome). LeBonCoin repond mais selecteurs data-qa-id=aditem_title/price du script cron sont obsoletes (page redesignee) - extraction faite manuellement via article aria-label + regex Prix.",
+  "status_note": "LeBonCoin OK (recherche via searchData JSON, ancien selecteur data-qa-id casse). BackMarket bloque par Cloudflare (challenge page). Vinted bloque par DataDome.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
@@ -50,21 +50,21 @@
     },
     {
       "id": "leb-3235963156",
-      "title": "Mac Studio M1 Max (CPU 10/GPU 32) 64Go RAM / 2To SSD",
+      "title": "Mac Studio M1 Max (CPU 10/GPU 32) - 64Go RAM / 2To SSD",
       "price": "1999 EUR TTC",
       "platform": "LeBonCoin",
       "url": "https://www.leboncoin.fr/ad/ordinateurs/3235963156",
       "found_at": "2026-07-20",
-      "note": "Prix bas suspect pour M1 Max 64Go/2To - a verifier avant contact (risque arnaque)"
+      "note": "verifie M1 Max 64Go/2To, ~1666 EUR HT"
     },
     {
       "id": "leb-3237604812",
-      "title": "Mac Studio M1 Max (10/32) 64Go/1To",
+      "title": "Mac Studio M1 Max (10/32) 64go 1to",
       "price": "1800 EUR TTC",
       "platform": "LeBonCoin",
       "url": "https://www.leboncoin.fr/ad/ordinateurs/3237604812",
       "found_at": "2026-07-24",
-      "note": "Prix bas suspect - meme formulation type que d'autres annonces suspectes du meme lot"
+      "note": "verifie M1 Max 64Go/1To, 1500 EUR HT"
     },
     {
       "id": "leb-3073800382",
