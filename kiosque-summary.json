@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T06:15:18+02:00",
+  "generated_at": "2026-07-27T07:05:36+02:00",
   "restaurant": "Strojna",
   "last_closed_month": {
     "label": "Juin 2026",
@@ -8,9 +8,9 @@
     "prev_ca": 7851.0
   },
   "week_forecast": {
-    "label": "07-25 → 07-31",
-    "estimated_ca": 3773.0,
-    "estimated_net": 1875.0,
+    "label": "07-27 → 08-02",
+    "estimated_ca": 3954.0,
+    "estimated_net": 1996.0,
     "confidence_pct": 100.0,
     "best_day": {
       "date": "2026-07-27",
@@ -40,7 +40,7 @@
     },
     {
       "level": "warn",
-      "text": "Inventaire stock daté du 2026-05-05 (82 j) — potentiellement obsolète."
+      "text": "Inventaire stock daté du 2026-05-05 (83 j) — potentiellement obsolète."
     }
   ]
 }
