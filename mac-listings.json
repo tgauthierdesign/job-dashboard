@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-29T05:21:14+02:00",
+  "last_checked": "2026-07-29T09:12:19+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket OK (donnees reelles, aucun match >=64Go valide). LeBonCoin: 0 resultats (probable blocage Datadome, cf. incident 07-26). Vinted: NO_DATA (page JS non exploitable en scraping headless).",
+  "status_note": "BackMarket OK (aucun Studio/mini 64Go+/1To+ en stock). LeBonCoin toujours bloque (NO_RESULTS, probleme connu depuis 07-26). Vinted NO_DATA (page ne renvoie plus de JSON exploitable, possible anti-bot).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
