@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-29T11:46:46+02:00",
+  "last_checked": "2026-07-29T15:01:01+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket OK (Mac mini repere mais RAM/stockage insuffisants, aucun match valide). LeBonCoin: NO_RESULTS (probable blocage anti-bot, cf. incident du 07-26). Vinted: NO_DATA (page non parsable, probable Cloudflare/Datadome).",
+  "status_note": "BackMarket OK (donnees recuperees, mais aucune config 64Go+/1To+/Max-Ultra-Pro en stock actuellement) ; LeBonCoin NO_RESULTS (probable blocage anti-bot, confirme depuis 07-26) ; Vinted NO_DATA (page __NEXT_DATA__ introuvable, probable anti-bot/captcha).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
