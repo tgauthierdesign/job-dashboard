@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-29T19:41:27+02:00",
+  "last_checked": "2026-07-29T23:09:57+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket OK (Studio: 0 config >=64Go; mini: seul un i3 2018 8Go/128Go non conforme). LeBonCoin NO_RESULTS (anti-bot/cookie wall). Vinted NO_DATA (blocage). Aucun produit valide.",
+  "status_note": "BackMarket Mini OK (0 match valide). BackMarket Studio: URL categorie morte (404). LeBonCoin Mini OK (0 nouveau match valide - Mac Mini M4 Pro 64Go/4To a 4399EUR TTC trouve mais hors budget, et faux positif Intel i7 2282550372 reconfirme exclu). LeBonCoin Studio: robot-check (bloque). Vinted Studio+Mini: DataDome/Captcha confirme (bloque).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
