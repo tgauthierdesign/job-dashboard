@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-30T01:58:54+02:00",
+  "last_checked": "2026-07-30T04:56:11+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket OK (mais aucun match valide - Mac Mini 2018 Intel hors criteres). LeBonCoin: NO_RESULTS (probable blocage cookie wall). Vinted: NO_DATA (probable blocage anti-bot). Mac Studio BackMarket: reponse vide.",
+  "status_note": "BackMarket OK (0 match valide). LeBonCoin: NO_RESULTS (bloque, comme depuis 07-26). Vinted: NO_DATA (bloque).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
