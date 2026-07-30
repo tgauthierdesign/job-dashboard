@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-07-30T08:11:32+02:00",
+  "last_checked": "2026-07-30T11:32:15+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket repond (aucun match 64Go+/Max/Ultra/Pro trouve). LeBonCoin: 0 resultats (probable blocage cookie wall/anti-bot). Vinted: NO_DATA sur Studio et mini (echec parsing/blocage).",
+  "status_note": "BackMarket OK (page chargee, 538 fiches) mais 0 match >=64Go RAM sur Studio et Mini. LeBonCoin bloque via mur de cookies Didomi (aditem_title absent). Vinted ne renvoie aucune structure de donnees exploitable (pas de __NEXT_DATA__/ItemBox).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
