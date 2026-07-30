@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-26T18:15:00+02:00",
-  "last_checked": "2026-07-26",
+  "last_updated": "2026-07-30T18:12:00+02:00",
+  "last_checked": "2026-07-30",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -427,6 +427,36 @@
       "local": true,
       "url": "https://emploi.afjv.com/emploi-jeux-video/EINF2343-29028",
       "note": "Mission freelance : système d'icônes UI manette/clavier pour FPS Unreal Engine 5 (jeu UNRECORD). Périmètre étroit mais match contrat+localisation."
+    },
+    {
+      "id": "side-productdesigner-remote",
+      "title": "Senior Product Designer",
+      "company": "Side",
+      "location": "Paris / Full remote",
+      "contract": "CDI",
+      "salary": "45–52 K€",
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/side/jobs/product-designer-paris-remote_paris",
+      "note": "Poste Senior, full remote. À vérifier si le niveau correspond à l'expérience de Thomas.",
+      "active": true,
+      "status": "uncertain"
+    },
+    {
+      "id": "boond-seniorproductdesigner-remote",
+      "title": "Senior Product Designer",
+      "company": "Boond (BoondManager)",
+      "location": "100% remote",
+      "contract": "CDI",
+      "salary": "50–60 K€",
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/boondmanager/jobs/senior-product-designer-100-remote_BOOND_pz6dm9g",
+      "note": "⚠️ Statut incertain — une source mentionne une date de démarrage passée (08/03/2026), à vérifier manuellement avant candidature. Poste Senior, full remote.",
+      "active": true,
+      "status": "uncertain"
     }
   ],
   "resources": [
