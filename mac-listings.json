@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-08-17T11:10:00+02:00",
+  "last_checked": "2026-08-17T14:55:49+02:00",
   "scraping_status": "failing",
-  "status_note": "Scraping bloqué (anti-bot) sur toutes les plateformes : BM_STUDIO vide (NUXT parsé, 0 match), BM_MINI NO_DATA, LeBonCoin NO_RESULTS (cookie wall), Vinted NO_DATA.",
+  "status_note": "Toutes les plateformes bloquées : LeBonCoin (DataDome), BackMarket (NO_DATA/anti-bot), Vinted (NO_DATA/anti-bot). 0 annonce exploitable.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
