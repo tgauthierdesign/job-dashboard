@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-08-24T08:56:45+02:00",
+  "last_checked": "2026-08-24T11:09:20+02:00",
   "scraping_status": "partial",
-  "status_note": "Run 2026-08-24 08:52 — BM: no matching listings (Studio: data but no 64Go+ matches, Mini: only old Intel models), LBC: ok but 0 valid (Studio M1 Max 64Go 2To at 2700€ exceeds 2520€ limit, Mini 64Go 2To at 2000€ is Intel i7), Vinted: anti-bot blocked both searches",
+  "status_note": "BackMarket Mini a retourné des données (Mac Intel anciens, non qualifiants). BackMarket Studio, LeBonCoin et Vinted bloqués (Cloudflare/DataDome/NO_DATA). Aucun produit valide trouvé.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
