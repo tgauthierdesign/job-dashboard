@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-08-24T14:11:29+02:00",
+  "last_checked": "2026-08-24T17:10:09+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket bloqué (Cloudflare), Vinted bloqué (DataDome). LeBonCoin: 7 annonces Studio + 8 Mini récupérées, aucune ne passe les filtres (seul candidat: Mac Studio M1 Max 64Go/2To à 2700€, hors budget 2520€). 0 match valide.",
+  "status_note": "BM mini: résultats low-spec uniquement (i3/8Go). LBC+Vinted: bloqués anti-bot. 0 produit valide (>=64Go RAM, >=1To, Pro/Max/Ultra).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
