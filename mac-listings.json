@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-08-24T11:09:20+02:00",
+  "last_checked": "2026-08-24T14:11:29+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket Mini a retourné des données (Mac Intel anciens, non qualifiants). BackMarket Studio, LeBonCoin et Vinted bloqués (Cloudflare/DataDome/NO_DATA). Aucun produit valide trouvé.",
+  "status_note": "BackMarket bloqué (Cloudflare), Vinted bloqué (DataDome). LeBonCoin: 7 annonces Studio + 8 Mini récupérées, aucune ne passe les filtres (seul candidat: Mac Studio M1 Max 64Go/2To à 2700€, hors budget 2520€). 0 match valide.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
