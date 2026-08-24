@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T18:12:00+02:00",
+  "last_updated": "2026-08-24T18:09:00+02:00",
   "last_checked": "2026-08-24",
   "candidate": {
     "name": "Thomas",
@@ -329,9 +329,11 @@
       "new": false,
       "local": true,
       "url": "https://www.wizbii.com/company/orange/job/ux-ui-designer-f-h-4",
-      "note": "Équipe Xperience Design Lab (XDLab) d'Orange, présente à Lannion (zone Anticipa). Poste axé stratégie de service, parcours utilisateurs, spécifications IHM, pilotage graphique agile. BAC+5 design UX-UI, anglais courant requis. Annonce signalée comme expirant bientôt — candidater rapidement.",
-      "active": true,
-      "status": "active"
+      "note": "Équipe Xperience Design Lab (XDLab) d'Orange, présente à Lannion (zone Anticipa). Poste axé stratégie de service, parcours utilisateurs, spécifications IHM, pilotage graphique agile. BAC+5 design UX-UI, anglais courant requis.",
+      "expired": true,
+      "expired_reason": "Page Wizbii HTTP 200 mais l'offre UX/UI Designer n'est plus affichée — remplacée par d'autres offres Orange (vérification 24/08/2026).",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "listentoo-uxui-brest",
@@ -397,7 +399,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": "2026-07-24",
-      "new": true,
+      "new": false,
       "local": true,
       "url": "https://carrieres.creditagricoletechnologiesservices.com/jobs/8123500-ui-designer-f-h",
       "note": "Communauté design ~70 personnes sur 6 sites dont Vannes. Design system 'Muesli'. Hybride 3j site/2j télétravail. Exp. 3-5 ans requise."
@@ -410,10 +412,14 @@
       "contract": "CDD",
       "salary": "32 300 – 51 800 €/an brut",
       "posted": "2026-07-18",
-      "new": true,
+      "new": false,
       "local": true,
       "url": "https://recrutement.bpce.fr/job/ux-designer-lea-f-h",
-      "note": "CDD 7 mois. Télétravail 10j/mois après 6 mois. Axé dialogue utilisateurs, méthodes agiles. Vérifier compatibilité avec dispo dès sept. 2026."
+      "note": "CDD 7 mois. Télétravail 10j/mois après 6 mois. Axé dialogue utilisateurs, méthodes agiles.",
+      "expired": true,
+      "expired_reason": "Page BPCE HTTP 200 mais contenu quasi-vide (vérification 24/08/2026) — CDD 7 mois posté le 18/07, probablement pourvu ou retiré.",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "drama-studios-game-ui-icon-rennes",
@@ -423,7 +429,7 @@
       "contract": "Freelance",
       "salary": null,
       "posted": "2026-07-23",
-      "new": true,
+      "new": false,
       "local": true,
       "url": "https://emploi.afjv.com/emploi-jeux-video/EINF2343-29028",
       "note": "Mission freelance : système d'icônes UI manette/clavier pour FPS Unreal Engine 5 (jeu UNRECORD). Périmètre étroit mais match contrat+localisation."
@@ -436,7 +442,7 @@
       "contract": "CDI",
       "salary": "45–52 K€",
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/companies/side/jobs/product-designer-paris-remote_paris",
       "note": "Poste Senior, full remote. À vérifier si le niveau correspond à l'expérience de Thomas.",
@@ -451,11 +457,25 @@
       "contract": "CDI",
       "salary": "50–60 K€",
       "posted": null,
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/companies/boondmanager/jobs/senior-product-designer-100-remote_BOOND_pz6dm9g",
       "note": "⚠️ Statut incertain — une source mentionne une date de démarrage passée (08/03/2026), à vérifier manuellement avant candidature. Poste Senior, full remote.",
       "active": true,
+      "status": "uncertain"
+    },
+    {
+      "id": "exalt-product-designer-paris",
+      "title": "Product Designer H/F",
+      "company": "eXalt",
+      "location": "Paris (télétravail fréquent)",
+      "contract": "CDI",
+      "salary": "40–65 K€",
+      "posted": "2026-07-30",
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/exalt/jobs/product-designer-h-f_paris",
+      "note": "Salaire 40–65K€, télétravail fréquent. Compétences attendues : design d'interfaces, identité visuelle, design organisationnel, Figma. ⚠️ URL WTTJ non fetchable — à vérifier manuellement avant candidature.",
       "status": "uncertain"
     }
   ],
