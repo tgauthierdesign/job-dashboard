@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-25T18:12:00+02:00",
-  "last_checked": "2026-08-25",
+  "last_updated": "2026-08-29T10:05:00+02:00",
+  "last_checked": "2026-08-29",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -402,7 +402,11 @@
       "new": false,
       "local": true,
       "url": "https://carrieres.creditagricoletechnologiesservices.com/jobs/8123500-ui-designer-f-h",
-      "note": "Communauté design ~70 personnes sur 6 sites dont Vannes. Design system 'Muesli'. Hybride 3j site/2j télétravail. Exp. 3-5 ans requise."
+      "note": "Communauté design ~70 personnes sur 6 sites dont Vannes. Design system 'Muesli'. Hybride 3j site/2j télétravail. Exp. 3-5 ans requise.",
+      "expired": true,
+      "expired_reason": "Page CATS HTTP 200 mais message 'L'offre n'est plus disponible' (vérification 29/08/2026).",
+      "active": false,
+      "status": "expired"
     },
     {
       "id": "bpce-ux-designer-lea-rennes",
