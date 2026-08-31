@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T08:13:00+02:00",
+  "last_updated": "2026-08-31T18:10:00+02:00",
   "last_checked": "2026-08-31",
   "candidate": {
     "name": "Thomas",
@@ -536,6 +536,62 @@
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/companies/sewan/jobs/product-designer-h-f_paris_SEWAN_17No0e0",
       "note": "Télécoms B2B, télétravail fréquent. Exp. >3 ans. Compétences : UX research, cahier des charges, amélioration continue. ⚠️ URL WTTJ — à vérifier manuellement.",
+      "status": "uncertain"
+    },
+    {
+      "id": "everping-product-designer-paris",
+      "title": "Product Designer (PrD)",
+      "company": "Everping",
+      "location": "Paris — télétravail fréquent",
+      "contract": "CDI",
+      "salary": "50–60 K€",
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/everping/jobs/product-owner-ux-ui_paris",
+      "note": "Salaire 50–60K€, télétravail fréquent. Exp. >3 ans, Bac+5. Compétences : design produit, interfaces utilisateur, travail en équipe. ⚠️ URL WTTJ — à vérifier manuellement avant candidature.",
+      "status": "uncertain"
+    },
+    {
+      "id": "chance-senior-product-designer-paris",
+      "title": "Senior Product Designer",
+      "company": "Chance",
+      "location": "Paris — télétravail fréquent",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/chance/jobs/product-designer_paris_CHANC_XWGeRd8",
+      "note": "Appli carrière/emploi. Télétravail fréquent. Exp. >7 ans requis — niveau Senior confirmé. Compétences : stratégie de marque, design organisationnel, amélioration continue. ⚠️ URL WTTJ — à vérifier manuellement.",
+      "status": "uncertain"
+    },
+    {
+      "id": "galadrim-product-designer-paris-nantes",
+      "title": "Product Designer UX/UI",
+      "company": "Galadrim",
+      "location": "Paris / Nantes — télétravail occasionnel",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/galadrim/jobs/designer-ux-ui_paris",
+      "note": "Agence tech (Paris/Nantes). Télétravail occasionnel uniquement — présence régulière requise. Bac+5. ⚠️ Moins adapté si Thomas reste en Bretagne. URL WTTJ — à vérifier manuellement.",
+      "status": "uncertain"
+    },
+    {
+      "id": "nexton-product-designer-app-paris",
+      "title": "Product Designer App H/F",
+      "company": "NEXTON Consulting",
+      "location": "Paris — télétravail fréquent",
+      "contract": "CDI",
+      "salary": null,
+      "posted": "2026-08-13",
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/product-designer-app-h-f_paris",
+      "note": "Cabinet de conseil tech, focus mobile/app. Télétravail fréquent. Publiée ~18 jours. Exp. >4 ans. ⚠️ URL WTTJ — à vérifier manuellement avant candidature.",
       "status": "uncertain"
     }
   ],
