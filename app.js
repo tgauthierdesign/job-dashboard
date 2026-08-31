@@ -512,6 +512,51 @@
   }
 
   /* =========================================================================
+   * ONGLET BRETAGNE
+   * ========================================================================= */
+  var bretagneLoaded = false;
+  var BRETAGNE_KW = ["lannion", "perros", "rennes", "brest", "saint-malo", "vannes",
+                     "trégor", "trebeurden", "saint-grégoire", "bretagne", "anticipa"];
+
+  function isBretagneJob(job) {
+    if (job.local) return true;
+    var loc = (job.location || "").toLowerCase();
+    return BRETAGNE_KW.some(function (kw) { return loc.indexOf(kw) !== -1; });
+  }
+
+  function loadBretagne() {
+    if (bretagneLoaded) return;
+    bretagneLoaded = true;
+    var panel = document.getElementById("panel-bretagne");
+    getJSON("jobs.json").then(function (data) {
+      var all = (data.jobs || []).filter(isBretagneJob);
+      var actives = all.filter(function (j) { return !j.expired; });
+      var expirees = all.filter(function (j) { return !!j.expired; });
+
+      var html = '<div class="status-bar">' +
+        "<strong>" + all.length + "</strong> offres locales · " +
+        "<strong>" + actives.length + "</strong> actives · " +
+        "<strong>" + expirees.length + "</strong> expirées / archivées" +
+        "</div>";
+
+      if (actives.length) {
+        html += '<h3 class="section-title">✅ Actives (' + actives.length + ')</h3>' +
+          '<div class="grid">' + actives.map(jobCard).join("") + "</div>";
+      }
+      if (expirees.length) {
+        html += '<h3 class="section-title">⛔ Expirées / Archivées (' + expirees.length + ')</h3>' +
+          '<div class="grid">' + expirees.map(jobCard).join("") + "</div>";
+      }
+      if (!all.length) {
+        html += '<p class="empty">Aucune offre bretonne trouvée.</p>';
+      }
+      panel.innerHTML = html;
+    }).catch(function (err) {
+      panel.innerHTML = '<div class="status-bar warn">⚠️ Impossible de charger jobs.json — ' + esc(err.message) + "</div>";
+    });
+  }
+
+  /* =========================================================================
    * ROUTER D'ONGLETS
    * ========================================================================= */
   var TITLES = {
@@ -522,9 +567,11 @@
     tasks: ["Tâches <span class=\"accent\">& activités en cours</span>",
             "Petit gestionnaire de tâches perso de Thomas"],
     kiosque: ["Kiosque <span class=\"accent\">Strojna</span>",
-              "Indicateurs clés du restaurant — Port de Perros-Guirec"]
+              "Indicateurs clés du restaurant — Port de Perros-Guirec"],
+    bretagne: ["🗺️ Offres <span class=\"accent\">Bretagne</span>",
+               "Toutes les offres locales — Lannion, Trégor & Bretagne"]
   };
-  var LOADERS = { jobs: loadJobs, mac: loadMac, tasks: loadTasks, kiosque: loadKiosque };
+  var LOADERS = { jobs: loadJobs, mac: loadMac, tasks: loadTasks, kiosque: loadKiosque, bretagne: loadBretagne };
 
   function activate(tab) {
     document.querySelectorAll(".tab").forEach(function (b) { b.classList.toggle("active", b.dataset.tab === tab); });
