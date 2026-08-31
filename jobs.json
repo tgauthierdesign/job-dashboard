@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-29T10:05:00+02:00",
-  "last_checked": "2026-08-30",
+  "last_updated": "2026-08-31T08:13:00+02:00",
+  "last_checked": "2026-08-31",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -479,7 +479,63 @@
       "new": true,
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/companies/exalt/jobs/product-designer-h-f_paris",
-      "note": "Salaire 40–65K€, télétravail fréquent. Compétences attendues : design d'interfaces, identité visuelle, design organisationnel, Figma. ⚠️ URL WTTJ non fetchable — à vérifier manuellement avant candidature.",
+      "note": "Salaire 40–65K€, télétravail fréquent. Compétences attendues : design d'interfaces, identité visuelle, design organisationnel, Figma. ⚠️ URL WTTJ non fetchable — à vérifier manuellement avant candidature. Toujours visible sur WTTJ au 31/08/2026 (il y a 25 jours).",
+      "status": "uncertain"
+    },
+    {
+      "id": "joko-product-designer-remote",
+      "title": "Product Designer",
+      "company": "Joko",
+      "location": "Paris / Full remote",
+      "contract": "CDI",
+      "salary": "52–87 K€",
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/joko/jobs/product-designer_paris_JOKO_m7Pym51",
+      "note": "Full remote (Paris/Barcelona). Salaire 52–87K€. Compétences : UX design, entretiens utilisateurs, autonomie. ⚠️ URL WTTJ — à vérifier manuellement avant candidature.",
+      "status": "uncertain"
+    },
+    {
+      "id": "huwise-product-designer-nantes",
+      "title": "Product Designer Confirmé(e)",
+      "company": "Huwise",
+      "location": "Paris / Nantes — télétravail fréquent",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/huwise/jobs/product-designer",
+      "note": "Paris ou Nantes, télétravail fréquent. Exp. >4 ans, Bac+5. Compétences : design visuel, dataviz, souci du détail. ⚠️ URL WTTJ — à vérifier manuellement.",
+      "status": "uncertain"
+    },
+    {
+      "id": "nabla-product-designer-paris",
+      "title": "Product Designer",
+      "company": "Nabla",
+      "location": "Paris — quelques jours en télétravail",
+      "contract": "CDI",
+      "salary": null,
+      "posted": "2026-08-13",
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/nabla/jobs/product-designer_paris",
+      "note": "HealthTech (IA médicale). Télétravail partiel. Publiée il y a ~18 jours. ⚠️ URL WTTJ — à vérifier manuellement avant candidature.",
+      "status": "uncertain"
+    },
+    {
+      "id": "sewan-product-designer-paris",
+      "title": "Product Designer (h/f)",
+      "company": "Sewan",
+      "location": "Paris — télétravail fréquent",
+      "contract": "CDI",
+      "salary": null,
+      "posted": null,
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/sewan/jobs/product-designer-h-f_paris_SEWAN_17No0e0",
+      "note": "Télécoms B2B, télétravail fréquent. Exp. >3 ans. Compétences : UX research, cahier des charges, amélioration continue. ⚠️ URL WTTJ — à vérifier manuellement.",
       "status": "uncertain"
     }
   ],
