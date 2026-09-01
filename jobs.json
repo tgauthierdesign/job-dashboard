@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T08:25:00+02:00",
+  "last_updated": "2026-09-01T18:10:00+02:00",
   "last_checked": "2026-09-01",
   "candidate": {
     "name": "Thomas",
@@ -593,6 +593,20 @@
       "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/product-designer-app-h-f_paris",
       "note": "Cabinet de conseil tech, focus mobile/app. Télétravail fréquent. Publiée ~18 jours. Exp. >4 ans. ⚠️ URL WTTJ — à vérifier manuellement avant candidature.",
       "status": "uncertain"
+    },
+    {
+      "id": "everai-senior-product-designer-remote",
+      "title": "Senior Product Designer",
+      "company": "EverAI",
+      "location": "Full remote France",
+      "contract": "CDI",
+      "salary": "75–115 K€",
+      "posted": "2026-08-19",
+      "new": true,
+      "local": false,
+      "url": "https://jobs.ashbyhq.com/everai/7ab9cf04-5fe3-4d7b-83de-4b069046b9ab",
+      "note": "Full remote France. Rémunération 75–115K€ — top du marché. EverAI = plateforme IA GPU cloud. Département Growth. Confirmé actif le 01/09/2026.",
+      "status": "active"
     }
   ],
   "resources": [
