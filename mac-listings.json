@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-02T13:25:53+02:00",
-  "scraping_status": "partial",
-  "status_note": "Run 2026-09-02 12h13 — Vinted: partial (listings OK mais 0 qualifiant: Mac Studio M1 Max 32Go, Mac mini M4 Pro 48Go). BackMarket: failing (Cloudflare). LeBonCoin: failing (JS required). 0 produit valide.",
+  "last_checked": "2026-09-02T14:09:12+02:00",
+  "scraping_status": "failing",
+  "status_note": "Scraping bloqué (Cloudflare/DataDome/anti-bot) sur BackMarket, LeBonCoin et Vinted. 6/6 sous-commandes en échec.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
