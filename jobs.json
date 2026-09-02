@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-01T18:10:00+02:00",
-  "last_checked": "2026-09-01",
+  "last_updated": "2026-09-02T08:20:00+02:00",
+  "last_checked": "2026-09-02",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -21,6 +21,21 @@
     "Anticipa"
   ],
   "jobs": [
+    {
+      "id": "softgarden-product-designer-remote",
+      "title": "Designer Produit UX/UI – Apps B2B/B2C",
+      "company": "softgarden GmbH",
+      "location": "Remote France (Rennes mentionné)",
+      "contract": "CDI",
+      "salary": "55 000 – 85 000 €/an",
+      "posted": "2026-08-28",
+      "new": true,
+      "local": false,
+      "url": "https://www.jobijoba.com/fr/annonce/54/2babee7d0717c4c25f25f399d5154599",
+      "note": "softgarden est une scale-up HR tech (logiciel de recrutement B2B/B2C). Le poste consiste à créer une nouvelle app candidats et améliorer l'app recruteurs existante. Fourchette de salaire excellente (55-85k€). Déjà identifié comme top lead. À candidater directement sur leur site ou via WTTJ.",
+      "status": "active",
+      "active": true
+    },
     {
       "id": "onspark-uxui-rennes",
       "title": "UX/UI Designer",
