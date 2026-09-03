@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-03T04:42:42+02:00",
-  "scraping_status": "failing",
-  "status_note": "Scraping bloqué (Cloudflare/Datadome/cookie wall) sur BackMarket, LeBonCoin et Vinted.",
+  "last_checked": "2026-09-03T10:06:23+02:00",
+  "scraping_status": "partial",
+  "status_note": "BM Mini partiel (Core i3/8Go, hors critères). BM Studio, LeBonCoin et Vinted bloqués (anti-bot/cookie wall). 0 produit valide.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
