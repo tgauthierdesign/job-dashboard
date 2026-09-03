@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-03T17:09:46+02:00",
+  "last_checked": "2026-09-03T20:09:23+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket accessible (Mac Intel seulement, aucun Apple Silicon 64Go+ visible). LeBonCoin et Vinted bloqués (DataDome/cookie wall, NO_RESULTS/NO_DATA).",
+  "status_note": "BackMarket Mini partiellement lisible (Intel ancienne gen, non conformes). BackMarket Studio, LeBonCoin et Vinted bloqués (NO_DATA/NO_RESULTS). 0 match valide (>=64Go, >=1To, puce Max/Ultra/Pro, <=2520€).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
