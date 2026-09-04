@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-04T11:09:22+02:00",
-  "scraping_status": "failing",
-  "status_note": "Scraping bloqué : BackMarket Studio vide, LeBonCoin et Vinted bloqués (Cloudflare/DataDome/cookie wall). BackMarket Mini a renvoyé des faux positifs (Mac Mini Intel 2018, critères non satisfaits).",
+  "last_checked": "2026-09-04T14:09:21+02:00",
+  "scraping_status": "partial",
+  "status_note": "BackMarket mini a répondu (Intel Mac Mini i3 8Go — non éligible). BM Studio, LeBonCoin et Vinted bloqués (Cloudflare/DataDome/cookie wall). 0 match qualifié.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
