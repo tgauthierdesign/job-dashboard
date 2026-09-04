@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-04T20:09:39+02:00",
-  "scraping_status": "partial",
-  "status_note": "BM Mini partiel (faux positifs Intel), BM Studio vide, LeBonCoin NO_RESULTS (DataDome), Vinted NO_DATA (anti-bot). 0 match valide.",
+  "last_checked": "2026-09-04T23:09:36+02:00",
+  "scraping_status": "failing",
+  "status_note": "Scraping bloqué : BackMarket (NO_DATA Studio, mini partiel avec faux-positifs i3/8Go non conformes), LeBonCoin (NO_RESULTS DataDome), Vinted (NO_DATA bloqué). 0 match valide.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
