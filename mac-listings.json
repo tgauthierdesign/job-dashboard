@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-05T20:00:05+02:00",
+  "last_checked": "2026-09-06T01:49:47+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket Mini partiel (anciens modèles Core i3, hors critères). BackMarket Studio sans résultat. LeBonCoin NO_RESULTS (DataDome). Vinted NO_DATA (anti-bot). Aucun match valide (64Go+, puce M-series Max/Ultra/Pro, <=2520€).",
+  "status_note": "BackMarket: produits trouvés mais hors budget (M2 Ultra 64Go/1To=4050€). LeBonCoin/Vinted: bloqués par anti-bot (NO_RESULTS/NO_DATA)",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
