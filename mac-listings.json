@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-05T10:58:25+02:00",
+  "last_checked": "2026-09-05T13:57:13+02:00",
   "scraping_status": "partial",
-  "status_note": "LeBonCoin ok, BackMarket bloque (Cloudflare), Vinted bloque (DataDome)",
+  "status_note": "BackMarket partiellement accessible (quelques données extraites, pas de match valide Apple Silicon 64Go+). LeBonCoin et Vinted bloqués (DataDome/cookie wall) — NO_RESULTS/NO_DATA.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
