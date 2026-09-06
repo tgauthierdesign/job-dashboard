@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-06T02:27:00+02:00",
+  "last_checked": "2026-09-06T05:27:25+02:00",
   "scraping_status": "partial",
-  "status_note": "BackMarket Mini: réponse partielle (Core i3 2018, hors critères). BackMarket Studio: bloqué Cloudflare. LeBonCoin: bloqué DataDome (NO_RESULTS). Vinted: bloqué anti-bot (NO_DATA).",
+  "status_note": "BackMarket mini: réponse reçue mais aucun match valide (Core i3 8Go seulement). BackMarket Studio, LeBonCoin et Vinted bloqués (Cloudflare/DataDome/cookie wall).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
