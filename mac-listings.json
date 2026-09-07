@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-07T02:30:21+02:00",
-  "scraping_status": "partial",
-  "status_note": "BM Mini: données partielles (Mac mini Intel 2018 non conforme). BM Studio, LeBonCoin et Vinted bloqués (Cloudflare/DataDome).",
+  "last_checked": "2026-09-07T05:29:15+02:00",
+  "scraping_status": "failing",
+  "status_note": "Scraping bloqué (Cloudflare/Datadome/cookie wall) : BM_STUDIO vide, BM_MINI faux positif (URL image iPad), LBC x2 NO_RESULTS, Vinted x2 NO_DATA.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
