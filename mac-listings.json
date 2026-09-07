@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-07T15:35:12+02:00",
+  "last_checked": "2026-09-07T17:10:49+02:00",
   "scraping_status": "failing",
-  "status_note": "Scraping bloqué : BackMarket (NO_DATA/Cloudflare), Vinted (NO_DATA/DataDome), LeBonCoin (NO_RESULTS — anti-bot ou 0 annonce).",
+  "status_note": "Résultat scraping 2026-09-07 17h09. 6/6 commandes échouées: BM_STUDIO=NO_DATA, BM_MINI=NO_DATA, LBC_STUDIO=NO_RESULTS, LBC_MINI=NO_RESULTS, VINTED_STUDIO=NO_DATA, VINTED_MINI=NO_DATA. Anti-bot ou changement structure HTML.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
