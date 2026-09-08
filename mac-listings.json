@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-08T20:47:43+02:00",
+  "last_checked": "2026-09-08T23:47:46+02:00",
   "scraping_status": "failing",
-  "status_note": "Scraping bloqué (Cloudflare/Datadome/cookie wall) sur BackMarket, LeBonCoin et Vinted. Tous 6 sous-runs : NO_DATA/NO_RESULTS.",
+  "status_note": "Scraping bloqué (Cloudflare/Datadome/anti-bot) sur BackMarket, LeBonCoin et Vinted. 0 annonce exploitable (BM_MINI false positive iPad image).",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
