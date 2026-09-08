@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-05T18:07:00+02:00",
-  "last_checked": "2026-09-06",
+  "last_updated": "2026-09-08T08:48:00+02:00",
+  "last_checked": "2026-09-08",
   "candidate": {
     "name": "Thomas",
     "role": "UX / UI / VR Designer",
@@ -21,6 +21,51 @@
     "Anticipa"
   ],
   "jobs": [
+    {
+      "id": "uxrepublic-smilegroup-ux-vannes",
+      "title": "UX Designer H/F",
+      "company": "UX-Republic (Smile Group)",
+      "location": "Vannes (Bretagne)",
+      "contract": "CDI",
+      "salary": null,
+      "posted": "2026-09-05",
+      "new": true,
+      "local": true,
+      "url": "https://www.jobintree.com/emplois/83067938.html",
+      "note": "Cabinet de conseil UX du Smile Group (UX-Republic), composé de designers passionnés. Poste à Vannes (Morbihan, Bretagne) — ~140 km de Perros-Guirec. Publié le 5 septembre 2026. Vérifier politique télétravail.",
+      "active": true,
+      "status": "active"
+    },
+    {
+      "id": "teamis-senior-pd-paris",
+      "title": "Senior Product Designer H/F",
+      "company": "Team.is",
+      "location": "Paris 20e (télétravail à confirmer)",
+      "contract": "CDI",
+      "salary": null,
+      "posted": "2026-09-05",
+      "new": true,
+      "local": false,
+      "url": "https://www.jobintree.com/emplois/83072306.html",
+      "note": "Team.is accompagne startups et scale-ups innovantes depuis 2021. Publié le 5 septembre 2026. Politique télétravail à confirmer avant candidature.",
+      "active": true,
+      "status": "active"
+    },
+    {
+      "id": "accor-product-designer-ecom",
+      "title": "Product Designer e-com Attract & Deals F/H/X",
+      "company": "Accor Tech & Digital",
+      "location": "Issy-les-Moulineaux — télétravail fréquent",
+      "contract": "CDI",
+      "salary": null,
+      "posted": "2026-09-02",
+      "new": true,
+      "local": false,
+      "url": "https://www.welcometothejungle.com/fr/companies/accor-tech-and-digital/jobs/product-designer-e-com-attract-deals-f-h-x_issy-les-moulineaux",
+      "note": "Accor Tech & Digital, périmètre e-commerce (attractivité clients & deals). Télétravail fréquent. Exp. >4 ans. Publié le 2 septembre 2026.",
+      "active": true,
+      "status": "active"
+    },
     {
       "id": "softgarden-product-designer-remote",
       "title": "Designer Produit UX/UI – Apps B2B/B2C",
