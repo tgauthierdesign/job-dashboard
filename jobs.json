@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T08:48:00+02:00",
+  "last_updated": "2026-09-08T18:12:00+02:00",
   "last_checked": "2026-09-08",
   "candidate": {
     "name": "Thomas",
@@ -22,6 +22,21 @@
   ],
   "jobs": [
     {
+      "id": "yofy-lead-uxui-remote",
+      "title": "Lead UX/UI Designer – Fintech Mobile Premium",
+      "company": "Yofy",
+      "location": "Remote (Paris)",
+      "contract": "CDI",
+      "salary": "≥ 100 000 €/an",
+      "posted": "2026-09-03",
+      "new": true,
+      "local": false,
+      "url": "https://www.jobijoba.com/fr/annonce/54/03264b3513f973ebf383a2a48bbb5a87",
+      "note": "Yofy recrute un Lead design UX/UI pour piloter la refonte premium de l'app mobile grand public et créer une webapp B2B — fort ratio design system Figma, approche data-driven, iOS/Android, orientation IA et crypto. Top lead déjà identifié (≥ 100k€).",
+      "active": true,
+      "status": "active"
+    },
+    {
       "id": "uxrepublic-smilegroup-ux-vannes",
       "title": "UX Designer H/F",
       "company": "UX-Republic (Smile Group)",
@@ -29,7 +44,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": "2026-09-05",
-      "new": true,
+      "new": false,
       "local": true,
       "url": "https://www.jobintree.com/emplois/83067938.html",
       "note": "Cabinet de conseil UX du Smile Group (UX-Republic), composé de designers passionnés. Poste à Vannes (Morbihan, Bretagne) — ~140 km de Perros-Guirec. Publié le 5 septembre 2026. Vérifier politique télétravail.",
@@ -44,7 +59,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": "2026-09-05",
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://www.jobintree.com/emplois/83072306.html",
       "note": "Team.is accompagne startups et scale-ups innovantes depuis 2021. Publié le 5 septembre 2026. Politique télétravail à confirmer avant candidature.",
@@ -59,7 +74,7 @@
       "contract": "CDI",
       "salary": null,
       "posted": "2026-09-02",
-      "new": true,
+      "new": false,
       "local": false,
       "url": "https://www.welcometothejungle.com/fr/companies/accor-tech-and-digital/jobs/product-designer-e-com-attract-deals-f-h-x_issy-les-moulineaux",
       "note": "Accor Tech & Digital, périmètre e-commerce (attractivité clients & deals). Télétravail fréquent. Exp. >4 ans. Publié le 2 septembre 2026.",
