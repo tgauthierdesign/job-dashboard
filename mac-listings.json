@@ -1,7 +1,7 @@
 {
-  "last_checked": "2026-09-22T05:29:00+02:00",
-  "scraping_status": "failing",
-  "status_note": "Scraping bloqué (Cloudflare/Datadome/anti-bot) sur BackMarket, LeBonCoin et Vinted. 0 résultat exploitable.",
+  "last_checked": "2026-09-22T08:30:15+02:00",
+  "scraping_status": "partial",
+  "status_note": "22/09 08h28: Vinted OK (3 Mac Studio trouvés mais tous 32Go/512Go, 1 Mini 64Go mais Intel). BackMarket/LeBonCoin bloqués (Cloudflare/anti-bot). 0 produit valide.",
   "target": {
     "model": "Mac Studio / Mac mini reconditionné ou occasion",
     "specs": "≥ 64 Go RAM · ≥ 1 To SSD · puce Max/Ultra/Pro · ≤ 2520 € TTC",
